@@ -144,9 +144,3 @@ const config = {
 };
 
 module.exports = config;
-module.exports = {
-  url: 'https://wiki-informatica.netlify.app', // Url to your site with no trailing slash
-  baseUrl: '/', // Base directory of your site relative to your repo
-  // ...
-  title: 'a'
-};
