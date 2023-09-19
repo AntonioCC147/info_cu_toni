@@ -77,9 +77,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'docs2',
+            sidebarId: 'subiecte',
             position: 'left',
-            label: 'Documentul 2',
+            label: 'Subiecte Bacalaureat',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/newpage', label: 'New Page', position: 'right'},
