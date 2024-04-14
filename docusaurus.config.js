@@ -69,6 +69,15 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {to: '/newpage', label: 'New Page', position: 'left'},
+          {
+            position: 'left',
+            label: 'Tools',
+            items: [
+              {to: '/newpage', label: 'New Page'},
+              {to: '/newpage', label: 'New Page'},
+            ]
+          },
           {
             type: 'docSidebar',
             sidebarId: 'bacalaureat',
@@ -116,6 +125,19 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/docusaurus',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
