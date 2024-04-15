@@ -28,3 +28,20 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+a {
+  text-decoration: none !important;
+  color: initial !important;
+}
+
+a:hover {
+  color: #2e8555 !important;
+}
+
+.navbar__link--active {
+  color: #2e8555 !important;
+}
+
+.footer__link-item {
+  color: #FFFFFF !important;
+}
