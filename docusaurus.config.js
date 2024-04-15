@@ -70,6 +70,7 @@ const config = {
         },
         items: [
           {to: '/newpage', label: 'New Page', position: 'left'},
+          {to: '/about', label: 'About', position: 'left'},
           {
             position: 'left',
             label: 'Tools',
@@ -80,15 +81,21 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'bacalaureat',
+            sidebarId: 'HTML',
             position: 'left',
-            label: 'Materie Bacalaureat',
+            label: 'HTML',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'subiecte',
+            sidebarId: 'CSS',
             position: 'left',
-            label: 'Subiecte Bacalaureat',
+            label: 'CSS',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'JavaScript',
+            position: 'left',
+            label: 'JavaScript',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/newpage', label: 'New Page', position: 'right'},
