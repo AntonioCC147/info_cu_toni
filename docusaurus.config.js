@@ -61,24 +61,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Poetry',
+        title: 'Wiki - TW',
         logo: {
-          alt: 'Wiki - Informatica',
-          src: 'img/logo.svg',
+          alt: 'Wiki - TW',
+          src: 'img/Logo.png',
         },
         items: [
-          {to: '/newpage', label: 'New Page', position: 'left'},
-          {to: '/about', label: 'About', position: 'left'},
-          {
-            position: 'left',
-            label: 'Tools',
-            items: [
-              {to: '/newpage', label: 'New Page'},
-              {to: '/newpage', label: 'New Page'},
-            ]
-          },
+          {to: '/', label: 'Acasă', position: 'left'},
+          {to: '/despre', label: 'Despre', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'HTML',
@@ -97,8 +88,15 @@ const config = {
             position: 'left',
             label: 'JavaScript',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/newpage', label: 'New Page', position: 'right'},
+          {
+            position: 'left',
+            label: 'Tools',
+            items: [
+              {to: '/newpage', label: 'New Page'},
+              {to: '/newpage', label: 'New Page'},
+            ]
+          },
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

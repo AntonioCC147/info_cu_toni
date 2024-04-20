@@ -6,27 +6,22 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #f2a92c;
+  --ifm-color-primary-dark: #f09e11;
+  --ifm-color-primary-darker: #e5960e;
+  --ifm-color-primary-darkest: #bd7b0c;
+  --ifm-color-primary-light: #f4b447;
+  --ifm-color-primary-lighter: #f4b954;
+  --ifm-color-primary-lightest: #f7ca7d;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+.toggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module {
+  display: none;
+}
+
+.navbar {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
 }
 
 a {
@@ -35,18 +30,24 @@ a {
 }
 
 a:hover {
-  color: #2e8555 !important;
+  color: #f2a92c !important;
+}
+
+.navbar__title, .navbar__link, .menu__link {
+  color: #f2a92c !important;
+}
+
+.navbar__link:hover {
+  color: #000000 !important;
 }
 
 .navbar--fixed-top {
   height: 75px;
   font-size: 16px;
-  /* backdrop-filter: blur(10px) !important;
-  background-color: rgba(60, 60, 60, 0.4) !important; */
 }
 
 .navbar__link--active {
-  color: #2e8555 !important;
+  color: #f2a92c !important;
 }
 
 .footer__link-item {

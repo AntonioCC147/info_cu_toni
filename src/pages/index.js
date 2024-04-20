@@ -1,37 +1,29 @@
 import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-import styles from './index.module.css';
+import Web from '../assets/images/Web.png';
 
-function HomepageHeader() {
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">Ceva</h1>
-        <p className="hero__subtitle">Altceva</p>
-        <div className={styles.buttons}>
-          {<Link
-            className="button button--secondary button--lg"
-            href="/">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>}
-        </div>
-      </div>
-    </header>
-  );
-}
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../css/index.css';
 
 export default function Home() {
   return (
-    <Layout
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+    <Layout>
+      <Container fluid className="indexBackground">
+        <Row>
+          <Col sm={12} lg={6}>
+            <p className="indexText1">Bine ai venit la învățatul online...</p>
+            <p className="indexText2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabo remagn ane aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+            <a href="/"><p className="indexButton">Read More &rarr;</p></a>
+          </Col>
+          <Col sm={12} lg={6} className="text-center">
+            <img src={Web} className="indexImage" alt="Web"/>
+          </Col>
+        </Row>
+      </Container>
     </Layout>
   );
 }
