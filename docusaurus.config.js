@@ -69,7 +69,7 @@ const config = {
         },
         items: [
           {to: '/', label: 'Acasă', position: 'left'},
-          {to: '/despre', label: 'Despre', position: 'left'},
+          {to: '/', label: 'Despre', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'HTML',
