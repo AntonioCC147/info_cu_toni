@@ -60,10 +60,25 @@
     margin-bottom: 75px;
 
     width: 500px;
+
+    animation: floating 3s ease-in-out infinite;
 }
 
 @media only screen and (max-width: 990px) {
     .indexText1 {
+        text-align: center;
         padding-top: 50px;
+    }
+}
+
+@keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
     }
 }

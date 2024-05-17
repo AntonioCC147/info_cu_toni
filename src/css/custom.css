@@ -22,6 +22,8 @@
 .navbar {
   padding-left: 5% !important;
   padding-right: 5% !important;
+ 
+  width: 100% !important;
 }
 
 a {
@@ -47,7 +49,7 @@ a:hover {
 }
 
 .navbar__link--active {
-  color: #f2a92c !important;
+  color: black !important;
 }
 
 .footer__link-item {

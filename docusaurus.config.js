@@ -68,8 +68,8 @@ const config = {
           src: 'img/Logo.png',
         },
         items: [
-          {to: '/', label: 'Acasă', position: 'left'},
-          {to: '/', label: 'Despre', position: 'left'},
+          {to: '/despre', label: 'Despre', position: 'left'},
+          {to: '/zebrahack', label: 'ZebraHack', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'HTML',
@@ -160,7 +160,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} | Website creat de echipa Tehnologii Web, Facultatea de Automatică și Calculatoare, București`,
       },
       prism: {
         theme: lightCodeTheme,
