@@ -69,7 +69,7 @@ const config = {
         },
         items: [
           {to: '/despre', label: 'Despre', position: 'left'},
-          {to: '/zebrahack', label: 'ZebraHack', position: 'left'},
+          {to: '/', label: 'ZebraHack', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'HTML',
