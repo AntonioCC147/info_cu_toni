@@ -8,7 +8,7 @@
   --ifm-color-primary-lightest: #f7ca7d;
 }
 
-.toggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module, .toggleButton_gllP {
+.toggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module, .navbar__items--right>:last-child, .toggleButton_gllP, .toggle_vylO {
   display: none !important;
 }
 
