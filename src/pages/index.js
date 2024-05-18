@@ -29,7 +29,7 @@ export default function Acasa() {
                 <Row>
                     <Col sm={12} lg={6}>
                         <p className="indexText1">Învață Tehnologii Web și creează-ți propria lume!</p>
-                        <p className="indexText2">Cursul de Tehnologii Web este conceput special pentru studenții care doresc să își înceapă aventura în lumea dezvoltării aplicațiilor web și să creeze propriile proiecte inovatoare folosind HTML, CSS și JavaScript. Iată ce vei învăța și cum te vei putea folosi de aceste cunoștințe pentru a-ți transforma ideile în realitate.</p>
+                        <p className="indexText2">Cursul de Tehnologii Web este conceput special pentru studenții care doresc să își înceapă aventura în lumea dezvoltării aplicațiilor web și să creeze propriile proiecte inovatoare folosind HTML, CSS și JavaScript. Iată ce vei învăța și cum te vei putea folosi de aceste cunoștințe pentru a-ți transforma ideile în realitate</p>
                         <a href="/"><p className="indexButton">Citește mai mult &rarr;</p></a>
                     </Col>
                     <Col sm={12} lg={6} className="text-center d-flex align-items-center justify-content-center">
@@ -67,7 +67,7 @@ export default function Acasa() {
             </Container>
             <Container fluid className="skillBackground">
                 <p className="skillText1">Skill-uri</p>
-                <p className="skillText2">Cursul de Tehnologii Web ajută la dobândirea mai multor skill-uri, atât tehnice, cât și nu numai.</p>
+                <p className="skillText2">Cursul de Tehnologii Web ajută la dobândirea mai multor skill-uri, atât tehnice, cât și nu numai</p>
                 <Row className="margin-auto">
                     <Col lg={3} md={4} sm={6} xs={12}>
                         <div className="skillCard">
