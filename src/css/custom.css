@@ -9,7 +9,7 @@
 }
 
 .toggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module, .toggleButton_gllP {
-  display: none;
+  display: none !important;
 }
 
 .navbar {
