@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Wiki - Informatica',
+  title: 'Wiki - Tehnologii Web',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -62,14 +62,14 @@ const config = {
     ({
       // Replace with your project's social card
       navbar: {
-        title: 'Wiki - TW',
+        title: 'Wiki - Tehnologii Web',
         logo: {
-          alt: 'Wiki - TW',
+          alt: 'Wiki - Tehnologii Web',
           src: 'img/Logo.png',
         },
         items: [
-          {to: '/despre', label: 'Despre', position: 'left'},
-          {to: '/', label: 'ZebraHack', position: 'left'},
+          {to: '/echipa', label: 'Echipă', position: 'left'},
+          {to: '/zebrahack', label: 'ZebraHack', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'HTML',

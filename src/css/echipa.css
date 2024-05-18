@@ -1,0 +1,90 @@
+.despreBackground {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+
+    min-height: calc(100vh - 75px);
+    margin-top: 75px;
+
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+}
+
+.despreText1 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+    text-align: center;
+
+    font-size: 3rem;
+    font-weight: bolder;
+
+    color: #283747;
+}
+
+.despreText2 {
+    margin-top: 0px;
+
+    text-align: center;
+    font-size: 1.3rem;
+
+    color: #747E88;
+}
+
+.echipaImage {
+    width: 300px;
+
+    animation: floating 3s ease-in-out infinite;
+}
+
+.echipaTitle {
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+    text-align: left;
+
+    font-size: 2rem;
+    font-weight: bolder;
+
+    color: #f2a92c;
+}
+
+.echipaSubTitle {
+    margin-top: 0px;
+
+    text-align: left;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    color: #283747;
+}
+
+.echipaDescription {
+    margin-top: 25px;
+
+    text-align: justify;
+
+    font-size: 1.2rem;
+
+    color: #747E88;
+}
+
+@media only screen and (max-width: 990px) {
+    .echipaTitle, .echipaSubTitle, .echipaDescription {
+        margin-top: 0px;
+        text-align: center;
+    }
+}
+
+@keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}

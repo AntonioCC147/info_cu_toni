@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 
 import Table from 'react-bootstrap/Table';
 
-export default function MyReactPage() {
+export default function NewPage() {
     return (
       <Layout>
         <h1>My React page</h1>

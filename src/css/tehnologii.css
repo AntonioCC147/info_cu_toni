@@ -2,7 +2,7 @@
     padding-left: 10% !important;
     padding-right: 10% !important;
 
-    min-height: 100vh;
+    min-height: calc(100vh - 75px);
 
     background-color: #F8F8F8;
     background-size: cover;

@@ -3,6 +3,7 @@
     padding-right: 10% !important;
 
     min-height: calc(100vh - 75px);
+    margin-top: 75px;
 
     background-color: #FFFFFF;
     background-size: cover;
