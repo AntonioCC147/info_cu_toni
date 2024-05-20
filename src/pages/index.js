@@ -17,10 +17,14 @@ import Analiza from '../assets/icons/Analiza.png';
 import Performanta from '../assets/icons/Performanta.png';
 import TandD from '../assets/icons/TandD.png';
 
+import Footer from '../components/footer';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/index.css';
 import '../css/tehnologii.css';
 import '../css/skill.css';
+import '../css/index.css';
+import '../css/footer.css';
 
 export default function Acasa() {
     return (
@@ -30,7 +34,7 @@ export default function Acasa() {
                     <Col sm={12} lg={6}>
                         <p className="indexText1">Învață Tehnologii Web și creează-ți propria lume!</p>
                         <p className="indexText2">Cursul de Tehnologii Web este conceput special pentru studenții care doresc să își înceapă aventura în lumea dezvoltării aplicațiilor web și să creeze propriile proiecte inovatoare folosind HTML, CSS și JavaScript. Iată ce vei învăța și cum te vei putea folosi de aceste cunoștințe pentru a-ți transforma ideile în realitate</p>
-                        <a href="/"><p className="indexButton">Citește mai mult &rarr;</p></a>
+                        <a href="/echipa"><p className="indexButton">Află cine suntem noi &rarr;</p></a>
                     </Col>
                     <Col sm={12} lg={6} className="text-center d-flex align-items-center justify-content-center">
                         <img src={Web} className="indexImage" alt="Web"/>
@@ -46,21 +50,21 @@ export default function Acasa() {
                         <div className="tehnologiiCard">
                         <img src={HTML} className="cardTehnologiiImage" alt="HTML"/>
                         <p className="cardTehnologiiTitle">HyperText Markup Language<br/>(HTML)</p>
-                        <p className="cardTehnologiiDescription">Acest curs face si drege ceva ce o sa trebuiasca eu sa completez aici pentru ca da.</p>
+                        <p className="cardTehnologiiDescription">Învață structura paginilor web cu HTML: elemente, tag-uri și atribute esențiale pentru crearea conținutului online.</p>
                         </div>
                     </Col>
                     <Col lg={4} style={{marginBottom: "50px"}}>
                         <div className="tehnologiiCard">
                         <img src={CSS} className="cardTehnologiiImage" alt="CSS"/>
                         <p className="cardTehnologiiTitle">Cascading Style Sheets<br/>(CSS)</p>
-                        <p className="cardTehnologiiDescription">Acest curs face si drege ceva ce o sa trebuiasca eu sa completez aici pentru ca da.</p>
+                        <p className="cardTehnologiiDescription">Descoperă stilizarea paginilor web cu CSS: culori, fonturi și tehnici avansate de design.</p>
                         </div>
                     </Col>
                     <Col lg={4} style={{marginBottom: "50px"}}>
                         <div className="tehnologiiCard">
                         <img src={JS} className="cardTehnologiiImage" alt="JS"/>
                         <p className="cardTehnologiiTitle">JavaScript<br/>(JS)</p>
-                        <p className="cardTehnologiiDescription">Acest curs face si drege ceva ce o sa trebuiasca eu sa completez aici pentru ca da.</p>
+                        <p className="cardTehnologiiDescription">Dezvoltă interactivitatea paginilor web cu JavaScript: variabile, funcții, evenimente și manipularea DOM-ului.</p>
                         </div>
                     </Col>
                 </Row>
@@ -107,6 +111,7 @@ export default function Acasa() {
                     </Col>
                 </Row>
             </Container>
+            <Footer/>
         </Layout>
     );
 }

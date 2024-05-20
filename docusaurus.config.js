@@ -88,6 +88,7 @@ const config = {
             position: 'left',
             label: 'JavaScript',
           },
+          /*
           {
             position: 'left',
             label: 'Tools',
@@ -96,14 +97,18 @@ const config = {
               {to: '/newpage', label: 'New Page'},
             ]
           },
+          */
           {to: '/blog', label: 'Blog', position: 'right'},
+          /*
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
+          */
         ],
       },
+      /*
       footer: {
         style: 'dark',
         links: [
@@ -162,6 +167,7 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} | Website creat de echipa Tehnologii Web, Facultatea de Automatică și Calculatoare din București`,
       },
+      */
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

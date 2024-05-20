@@ -5,6 +5,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
 
+import Footer from '../components/footer';
+
 import ZebraHackImg from '../assets/images/ZebraHack.png';
 import ZebraHack1 from '../assets/images/ZebraHack1.jpg'
 
@@ -113,6 +115,7 @@ export default function ZebraHack() {
                     </Row>
                 </Row>
             </Container>
+            <Footer/>
         </Layout>
     );
 }

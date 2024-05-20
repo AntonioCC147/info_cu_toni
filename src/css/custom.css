@@ -30,7 +30,7 @@
   margin-top: 25px !important;
 }
 
-.title_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Title-styles-module {
+.title_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Title-styles-module, .title_node_modules-\@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module {
   margin-top: 50px !important;
 }
 
@@ -52,7 +52,7 @@ a:hover {
   color: #f2a92c !important;
 }
 
-.navbar__title::after, .navbar__link::after, .menu__link::after {
+.navbar__title::after, .navbar__link::after {
   position: absolute;
   
   left: 0;

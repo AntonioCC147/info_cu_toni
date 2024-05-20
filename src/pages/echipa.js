@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Footer from '../components/footer';
+
 import Avatar from '../assets/images/Avatar.png';
 import Matrix from '../assets/images/Matrix.png';
 
@@ -57,6 +59,7 @@ export default function Echipa() {
                     </Col>
                 </Row>
             </Container>
+            <Footer/>
         </Layout>
     );
 }
