@@ -15,7 +15,7 @@ export default function Footer() {
                         <li><a href="mailto:daniela.hossu@upb.ro">daniela.hossu@upb.ro</a></li>
                         <li><a href="mailto:">mail mihai</a></li>
                         <li><a href="mailto:antoniocrantea@gmail.com">antoniocrantea@gmail.com</a></li>
-                        <li><a href="mailto:">mail hami</a></li>
+                        <li><a href="mailto:">mail hampi</a></li>
                         </ul>
                     </div>
                     <div className="col-xs-6 col-md-3 text-center">

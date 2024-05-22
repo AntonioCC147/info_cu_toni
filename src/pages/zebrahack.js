@@ -34,7 +34,7 @@ export default function ZebraHack() {
                     </Col>
                     <Col lg={1}/>
                     <Col lg={7}>
-                        <p className="zebraHackSubTitle">Câștigătorii</p>
+                        <p className="zebraHackSubTitle">Câștigători</p>
                         <Table striped bordered hover>
                             <thead>
                                 <tr>

@@ -1,4 +1,4 @@
-.despreBackground {
+.echipaBackground {
     padding-left: 10% !important;
     padding-right: 10% !important;
 
@@ -10,7 +10,7 @@
     background-position: center;
 }
 
-.despreText1 {
+.echipaText1 {
     margin-top: 25px;
     margin-bottom: 0px;
 
@@ -22,10 +22,11 @@
     color: #283747;
 }
 
-.despreText2 {
+.echipaText2 {
     margin-top: 0px;
 
     text-align: center;
+
     font-size: 1.3rem;
 
     color: #747E88;
@@ -46,11 +47,12 @@
     font-size: 2rem;
     font-weight: bolder;
 
-    color: #f2a92c;
+    color: #F2A92C;
 }
 
 .echipaSubTitle {
     margin-top: 0px;
+    margin-bottom: 0px;
 
     text-align: left;
 
@@ -60,8 +62,33 @@
     color: #283747;
 }
 
+.echipaContainer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-decoration: none;
+}
+
+.gitHubImage {
+    width: 20px;
+
+    margin-right: 10px;
+}
+
+.echipaLink {
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    color: #747E88;
+}
+
+.echipaLink:hover {
+    color: #F2A92C ;
+}
+
 .echipaDescription {
     margin-top: 25px;
+    margin-bottom: 25px;
 
     text-align: justify;
 
@@ -74,6 +101,12 @@
     .echipaTitle, .echipaSubTitle, .echipaDescription {
         margin-top: 0px;
         text-align: center;
+    }
+    .echipaDescription{
+        margin-top: 25px;
+    }
+    .echipaContainer {
+        justify-content: center;
     }
 }
 
