@@ -48,14 +48,23 @@ hr {
 
     color: #3366cc;
 }
-.footer-links {
-    padding-left: 0;
 
+.footer-links-container {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 10px;
+}
+
+.footer-links {
     list-style: none;
+    
+    padding: 0;
+    margin: 0 10px;
 }
 
 .footer-links li {
-    display: block;
+    margin-bottom: 5px;
 }
 
 .footer-links a {
