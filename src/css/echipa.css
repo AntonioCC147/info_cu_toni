@@ -4,6 +4,7 @@
 
     min-height: calc(100vh - 75px);
     margin-top: 75px;
+    margin-bottom: 25px;
 
     background-color: #FFFFFF;
     background-size: cover;
