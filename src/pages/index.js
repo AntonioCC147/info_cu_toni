@@ -76,9 +76,9 @@ export default function Acasa() {
     });
 
     const animationIndex = useSpring({
-        from: { opacity: 0, transform: 'translateX(-100%)' },
+        from: { opacity: 0, transform: 'translateX(-50%)' },
         to: { opacity: 1, transform: 'translateX(0%)' },
-        config: { duration: 500 },
+        config: { duration: 750 },
     });
 
     const animationCards1 = useSpring({
@@ -106,32 +106,32 @@ export default function Acasa() {
     });
 
     const animationSkill2 = useSpring({
-        opacity: inView4 ? 1 : 0,
-        transform: inView4 ? 'translateY(0)' : 'translateY(100px)',
+        opacity: inView5 ? 1 : 0,
+        transform: inView5 ? 'translateY(0)' : 'translateY(100px)',
         config: { duration: 750 },
     });
 
     const animationSkill3 = useSpring({
-        opacity: inView4 ? 1 : 0,
-        transform: inView4 ? 'translateY(0)' : 'translateY(100px)',
+        opacity: inView6 ? 1 : 0,
+        transform: inView6 ? 'translateY(0)' : 'translateY(100px)',
         config: { duration: 1000 },
     });
 
     const animationSkill4 = useSpring({
-        opacity: inView4 ? 1 : 0,
-        transform: inView4 ? 'translateY(0)' : 'translateY(100px)',
+        opacity: inView7 ? 1 : 0,
+        transform: inView7 ? 'translateY(0)' : 'translateY(100px)',
         config: { duration: 1250 },
     });
 
     const animationSkill5 = useSpring({
-        opacity: inView4 ? 1 : 0,
-        transform: inView4 ? 'translateY(0)' : 'translateY(100px)',
+        opacity: inView8 ? 1 : 0,
+        transform: inView8 ? 'translateY(0)' : 'translateY(100px)',
         config: { duration: 1500 },
     });
 
     const animationSkill6 = useSpring({
-        opacity: inView4 ? 1 : 0,
-        transform: inView4 ? 'translateY(0)' : 'translateY(100px)',
+        opacity: inView9 ? 1 : 0,
+        transform: inView9 ? 'translateY(0)' : 'translateY(100px)',
         config: { duration: 1750 },
     });
 
