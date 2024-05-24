@@ -1,8 +1,18 @@
+.backgroundFooterHome {
+    background-color: #F0F0F0;
+}
+
+.backgroundFooterNoHome {
+    background-color: #FFFFFF;
+}
+
 .site-footer {
     padding: 50px 0 20px;
 
     font-size: 15px;
     line-height: 24px;
+
+    border-radius: 50px 50px 0px 0px !important;
 
     color: #FFFFFF;
     background-color: #283747;

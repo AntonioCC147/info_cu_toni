@@ -20,6 +20,8 @@
   padding-right: 5% !important;
  
   width: 100% !important;
+
+  border-radius: 0px 0px 50px 50px !important;
 }
 
 .text--truncate:hover {
