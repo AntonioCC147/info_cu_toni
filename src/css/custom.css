@@ -26,12 +26,20 @@
   background-color: #283747 !important;
 }
 
+.navbar-sidebar__brand {
+  box-shadow: 0 4px 8px #FFFFFF;
+}
+
 .text--truncate:hover {
   color: #FFFFFF !important;
 }
 
-.menu, .markdown h1:first-child, .navbar-sidebar__brand {
+.menu, .navbar-sidebar__brand {
   background-color: #283747;
+}
+
+.thin-scrollbar {
+  background-color: #FFFFFF;
 }
 
 .menu, .markdown h1:first-child {
