@@ -10,18 +10,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://wiki-informatica.netlify.app/',
+  url: 'https://wiki-tw.netlify.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -62,7 +54,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       navbar: {
         title: '<Wiki - Tehnologii Web/>',
         logo: {
@@ -80,15 +71,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'HTML',
+            sidebarId: 'HTMLCSS',
             position: 'left',
-            label: 'HTML',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'CSS',
-            position: 'left',
-            label: 'CSS',
+            label: 'HTML & CSS',
           },
           {
             type: 'docSidebar',

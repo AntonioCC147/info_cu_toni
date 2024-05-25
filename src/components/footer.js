@@ -36,8 +36,7 @@ export default function Footer() {
                                 </ul>
                                 <ul className="footer-links">
                                     <li><a href="/">Git & GitHub</a></li>
-                                    <li><a href="/">HTML</a></li>
-                                    <li><a href="/">CSS</a></li>
+                                    <li><a href="/">HTML & CSS</a></li>
                                     <li><a href="/">JavaScript</a></li>
                                 </ul>
                             </div>
@@ -48,7 +47,7 @@ export default function Footer() {
                 <div className="container">
                     <div className="row">
                         <div>
-                            <p className="copyright-text">Copyright © {new Date().getFullYear()} | Website creat de echipa Tehnologii Web, Facultatea de Automatică și Calculatoare din București</p>
+                            <p className="copyright-text">Copyright © {new Date().getFullYear()} | Website creat de către echipa Tehnologii Web, Facultatea de Automatică și Calculatoare din București</p>
                         </div>
                     </div>
                 </div>
