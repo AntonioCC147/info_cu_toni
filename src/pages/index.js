@@ -20,8 +20,6 @@ import Analiza from '../assets/icons/Analiza.png';
 import Performanta from '../assets/icons/Performanta.png';
 import TandD from '../assets/icons/TandD.png';
 
-import Footer from '../components/footer';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/index.css';
 import '../css/tehnologii.css';
@@ -239,7 +237,6 @@ export default function Acasa() {
                     </Col>
                 </Row>
             </Container>
-            <Footer/>
         </Layout>
     );
 }

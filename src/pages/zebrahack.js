@@ -8,8 +8,6 @@ import Table from 'react-bootstrap/Table';
 import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 
-import Footer from '../components/footer';
-
 import ZebraHackImg from '../assets/images/ZebraHack.png';
 import ZebraHack1 from '../assets/images/ZebraHack1.jpg'
 
@@ -193,7 +191,6 @@ export default function ZebraHack() {
                     </Row>
                 </Row>
             </Container>
-            <Footer/>
         </Layout>
     );
 }

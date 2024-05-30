@@ -7,8 +7,6 @@ import Col from 'react-bootstrap/Col';
 import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 
-import Footer from '../components/footer';
-
 import Avatar from '../assets/images/Avatar.png';
 import Matrix from '../assets/images/Matrix.png';
 import GitHub from '../assets/icons/GitHub.png';
@@ -135,7 +133,6 @@ export default function Echipa() {
                     </Col>
                 </Row>
             </Container>
-            <Footer/>
         </Layout>
     );
 }
