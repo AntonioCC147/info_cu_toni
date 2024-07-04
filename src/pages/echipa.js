@@ -34,6 +34,16 @@ export default function Echipa() {
         threshold: 0.1,
     });
 
+    const [ref5, inView5] = useInView({
+        triggerOnce: true,
+        threshold: 0.1,
+    });
+
+    const [ref6, inView6] = useInView({
+        triggerOnce: true,
+        threshold: 0.1,
+    });
+
     const animationText = useSpring({
         from: { opacity: 0, transform: 'translateX(-50%)' },
         to: { opacity: 1, transform: 'translateX(0%)' },
@@ -61,6 +71,18 @@ export default function Echipa() {
     const animationTextLeft2 = useSpring({
         opacity: inView4 ? 1 : 0,
         transform: inView4 ? 'translateX(0%)' : 'translateX(-10%)',
+        config: { duration: 750 },
+    });
+
+    const animationTextRight3 = useSpring({
+        opacity: inView5 ? 1 : 0,
+        transform: inView5 ? 'translateX(0%)' : 'translateX(10%)',
+        config: { duration: 750 },
+    });
+
+    const animationTextLeft3 = useSpring({
+        opacity: inView6 ? 1 : 0,
+        transform: inView6 ? 'translateX(0%)' : 'translateX(-10%)',
         config: { duration: 750 },
     });
 
@@ -121,6 +143,38 @@ export default function Echipa() {
                         <animated.div ref={ref4} style={animationTextLeft2}>
                             <p className="echipaTitle">Hampi Rareș-Marian</p>
                             <p className="echipaSubTitle">Mentor BackEnd Developer cu React & Student în anul III</p>
+                            <a class="echipaContainer" href="/">
+                                <img src={GitHub} className="gitHubImage" alt="GitHub"/>
+                                <span className="echipaLink">GitHub</span>
+                            </a>
+                            <p className="echipaDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        </animated.div>
+                    </Col>
+                    <Col lg={4} className="text-center d-flex align-items-center justify-content-center order-lg-2 order-1">
+                        <img src={Avatar} className="echipaImage" alt="Avatar"/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={4} className="text-center d-flex align-items-center justify-content-center order-lg-1 order-1">
+                        <img src={Avatar} className="echipaImage" alt="Avatar"/>
+                    </Col>
+                    <Col lg={8} className="order-lg-2 order-2">
+                        <animated.div ref={ref5} style={animationTextRight3}>
+                            <p className="echipaTitle">Dobre Andreea-Viktorya</p>
+                            <p className="echipaSubTitle">Mentor XXXXXXXXXX & Student în anul III</p>
+                            <a class="echipaContainer" href="/">
+                                <img src={GitHub} className="gitHubImage" alt="GitHub"/>
+                                <span className="echipaLink">GitHub</span>
+                            </a>
+                            <p className="echipaDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        </animated.div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={8} className="order-lg-1 order-2">
+                        <animated.div ref={ref6} style={animationTextLeft3}>
+                            <p className="echipaTitle">Beteringhe Ana</p>
+                            <p className="echipaSubTitle">Mentor XXXXXXXXXX & Student în anul III</p>
                             <a class="echipaContainer" href="/">
                                 <img src={GitHub} className="gitHubImage" alt="GitHub"/>
                                 <span className="echipaLink">GitHub</span>
