@@ -50,6 +50,14 @@
   margin-top: 50px !important;
 }
 
+.sidebar_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-styles-module {
+  margin-top: 23% !important;
+}
+
+.cardTitle_node_modules-\@docusaurus-theme-classic-lib-theme-DocCard-styles-module:hover, .cardDescription_node_modules-\@docusaurus-theme-classic-lib-theme-DocCard-styles-module:hover {
+  color: #f2a92c !important;
+}
+
 a {
   text-decoration: none !important;
   color: initial !important;

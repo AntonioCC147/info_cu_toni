@@ -62,7 +62,7 @@ const config = {
         },
         items: [
           {to: '/despre', label: 'Despre', position: 'left'},
-          {to: '/zebrahack', label: 'ZebraHack', position: 'left'},
+          {to: '/meditatii', label: 'Meditații', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'ClasaIX',

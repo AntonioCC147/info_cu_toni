@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# Structuri liniare
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+Add **Markdown or React** files to `src/pages` to create:
 
 - `src/pages/index.js` → `localhost:3000/`
 - `src/pages/foo.md` → `localhost:3000/foo`
@@ -27,6 +27,18 @@ export default function MyReactPage() {
   );
 }
 ```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    return 0;
+}
+```
+
+>Warning
 
 A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
 

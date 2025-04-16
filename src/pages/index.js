@@ -8,9 +8,9 @@ import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 
 import Web from '../assets/images/Web.png';
-import HTML from '../assets/images/HTML.png';
-import CSS from '../assets/images/CSS.png';
-import JS from '../assets/images/JS.png';
+import Informatica from '../assets/images/Informatica.png';
+import Programare from '../assets/images/Programare.png';
+import Matematica from '../assets/images/Matematica.png';
 import Matrix from '../assets/images/Matrix.png';
 
 import WebDev from '../assets/icons/WebDev.png';
@@ -152,32 +152,32 @@ export default function Acasa() {
             <Container fluid className="tehnologiiBackground">
                 <Row>
                     <img src={Matrix} className="matrixImage" alt="Matrix"/>
-                    <p className="tehnologiiText1">Module</p>
+                    <p className="tehnologiiText1">Pregătire Individuală</p>
                     <p className="tehnologiiText2">Cursul de împarte în 3 module menite să ajute la dezvoltarea și întreprinderea abilităților practice în ceea ce privește dezvoltarea de aplicații web</p>
                     <Col lg={4} style={{marginBottom: "50px"}}>
                         <animated.div ref={ref1} style={animationCards1}>
                             <div className="tehnologiiCard">
-                                <img src={HTML} className="cardTehnologiiImage" alt="HTML"/>
-                                <p className="cardTehnologiiTitle">HyperText Markup Language<br/>(HTML)</p>
+                                <img src={Informatica} className="cardTehnologiiImage" alt="Informatica"/>
+                                <p className="cardTehnologiiTitle">Informatică<br/>(C / C++)</p>
                                 <p className="cardTehnologiiDescription">Învață structura paginilor web cu HTML: elemente, tag-uri și atribute esențiale pentru crearea conținutului online</p>
-                            </div>
-                        </animated.div>
-                    </Col>
-                    <Col lg={4} style={{marginBottom: "50px"}}>
-                        <animated.div ref={ref2} style={animationCards2}>
-                            <div className="tehnologiiCard">
-                                <img src={CSS} className="cardTehnologiiImage" alt="CSS"/>
-                                <p className="cardTehnologiiTitle">Cascading Style Sheets<br/>(CSS)</p>
-                                <p className="cardTehnologiiDescription">Descoperă stilizarea paginilor web cu CSS: culori, fonturi și tehnici avansate de design</p>
                             </div>
                         </animated.div>
                     </Col>
                     <Col lg={4} style={{marginBottom: "50px"}}>
                         <animated.div ref={ref3} style={animationCards3}>
                             <div className="tehnologiiCard">
-                                <img src={JS} className="cardTehnologiiImage" alt="JS"/>
-                                <p className="cardTehnologiiTitle">JavaScript<br/>(JS)</p>
+                                <img src={Programare} className="cardTehnologiiImage" alt="Programare"/>
+                                <p className="cardTehnologiiTitle">Programare<br/>(React, HTML, CSS, JavaScript)</p>
                                 <p className="cardTehnologiiDescription">Dezvoltă interactivitatea paginilor web cu JavaScript: variabile, funcții, evenimente și manipularea DOM-ului</p>
+                            </div>
+                        </animated.div>
+                    </Col>
+                    <Col lg={4} style={{marginBottom: "50px"}}>
+                        <animated.div ref={ref2} style={animationCards2}>
+                            <div className="tehnologiiCard">
+                                <img src={Matematica} className="cardTehnologiiImage" alt="Matematica"/>
+                                <p className="cardTehnologiiTitle">Matematică<br/>(Algebră, Geometrie, Analiză)</p>
+                                <p className="cardTehnologiiDescription">Descoperă stilizarea paginilor web cu CSS: culori, fonturi și tehnici avansate de design</p>
                             </div>
                         </animated.div>
                     </Col>
