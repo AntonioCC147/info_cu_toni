@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Wiki - Tehnologii Web',
+  title: 'Wiki - Informatică',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -55,31 +55,31 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '<Wiki - Tehnologii Web/>',
+        title: 'Wiki - Informatică',
         logo: {
-          alt: '<Wiki - Tehnologii Web/>',
+          alt: 'Wiki - Informatică',
           src: 'img/Logo.png',
         },
         items: [
-          {to: '/echipa', label: 'Echipă', position: 'left'},
+          {to: '/despre', label: 'Despre', position: 'left'},
           {to: '/zebrahack', label: 'ZebraHack', position: 'left'},
           {
             type: 'docSidebar',
-            sidebarId: 'GIT',
+            sidebarId: 'ClasaIX',
             position: 'left',
-            label: 'Git & GitHub',
+            label: 'Clasa a IX-a',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'HTMLCSS',
+            sidebarId: 'ClasaX',
             position: 'left',
-            label: 'HTML & CSS',
+            label: 'Clasa a X-a',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'JavaScript',
+            sidebarId: 'ClasaXI',
             position: 'left',
-            label: 'JavaScript',
+            label: 'Clasa a XI-a',
           },
           /*
           {
