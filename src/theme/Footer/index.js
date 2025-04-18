@@ -16,33 +16,38 @@ export default function FooterWrapper(props) {
                     <div className="container m-auto">
                         <div className="row">
                             <div className="col-sm-12 col-md-6">
-                                <h6 className="site-footerText">Despre Noi</h6>
-                                <p className="text-justify">Tehnologii Web reprezintă o disciplină care a apărut prima dată în planul de învățământ al studenților de la Ingineria Sistemelor abia în anul 2022. Această disciplină are ca scop punerea bazelor studenților și pregătirea acestora pentru dezvoltarea de aplicații web atât pe partea de Frontend, cu HTML și CSS, dar și pe partea de Backend cu JavaScript. Tehnologii Web se află în continuă dezvoltare și încearcă să vină de la an la an cu diferite îmbunătățiri, precum cursuri secundare de Web Scrapping sau chiar React.</p>
-                            </div>
-                            <div className="col-xs-6 col-md-3 text-center">
-                                <h6 className="site-footerText">Contact</h6>
-                                <ul className="footer-links">
-                                    <li><a href="mailto:daniela.hossu@upb.ro">daniela.hossu@upb.ro</a></li>
-                                    <li><a href="mailto:">mail mihai</a></li>
-                                    <li><a href="mailto:antoniocrantea@gmail.com">antoniocrantea@gmail.com</a></li>
-                                    <li><a href="mailto:">mail hampi</a></li>
-                                </ul>
+                                <h6 className="site-footerText">Despre Website</h6>
+                                <p className="text-justify">
+                                    Website-ul își propune două mari scopuri, anume acela de a ajuta elevii cu informații și materie
+                                    relevantă la informatică, atât pentru școală, cât și pentru examene naționale, dar și pentru
+                                    admitere, dar și scopul de a promova pregătirea individuală pe care o realizez de câțiva ani
+                                    buni. Pentru mai multe informații, recomand urmărirea paginilor de pe site, iar pentru a mă
+                                    contacta, o puteți face la secțiunea Contact.
+                                </p>
                             </div>
                             <div className="col-xs-6 col-md-3 text-center">
                                 <h6 className="site-footerText">Harta Site-ului</h6>
                                 <div className="footer-links-container">
                                     <ul className="footer-links">
-                                        <li><a href="/">Acasă</a></li>
-                                        <li><a href="/echipa">Echipă</a></li>
-                                        <li><a href="/zebrahack">ZebraHack</a></li>
+                                        <li><a href="/despre">Despre</a></li>
+                                        <li><a href="/meditatii">Meditații</a></li>
                                         <li><a href="/blog">Blog</a></li>
+                                        <li><a href="/blog">Contact</a></li>
                                     </ul>
                                     <ul className="footer-links">
-                                        <li><a href="/">Git & GitHub</a></li>
-                                        <li><a href="/">HTML & CSS</a></li>
-                                        <li><a href="/">JavaScript</a></li>
+                                        <li><a href="/docs/Clasa-IX/cuprins">Clasa a IX-a</a></li>
+                                        <li><a href="/docs/Clasa-X/cuprins">Clasa a X-a</a></li>
+                                        <li><a href="/docs/Clasa-XI/cuprins">Clasa a XI-a</a></li>
+                                        <li><a href="/">Subiecte</a></li>
                                     </ul>
                                 </div>
+                            </div>
+                            <div className="col-xs-6 col-md-3 text-center">
+                                <h6 className="site-footerText">Contact</h6>
+                                <ul className="footer-links">
+                                    <b>Email</b><li><a href="mailto:antoniocrantea@gmail.com">antoniocrantea@gmail.com</a></li>
+                                    <b>LinkedIn</b><li><a href="https://www.linkedin.com/in/antonio-crantea/">antonio-crantea</a></li>
+                                </ul>
                             </div>
                         </div>
                         <hr/>
@@ -50,7 +55,7 @@ export default function FooterWrapper(props) {
                     <div className="container">
                         <div className="row">
                             <div>
-                                <p className="copyright-text">Copyright © {new Date().getFullYear()} | Website creat de către echipa Tehnologii Web, Facultatea de Automatică și Calculatoare din București</p>
+                                <p className="copyright-text">Copyright © {new Date().getFullYear()} | Website creat de Crantea Antonio-Cristian | Toate drepturile sunt rezervate</p>
                             </div>
                         </div>
                     </div>

@@ -52,7 +52,7 @@ export default function Echipa() {
                     <Col lg={8} className="order-lg-2 order-2">
                         <animated.div ref={ref} style={animationTextRight}>
                             <p className="echipaTitle">Crantea Antonio-Cristian</p>
-                            <p className="echipaSubTitle">Autor, Mentor și Profesor de Informatică & TIC</p>
+                            <p className="echipaSubTitle">Autor, Meditator și Profesor de Informatică & TIC</p>
                             <a class="echipaContainer" href="https://antoniocrantea.ro/" target="_blank">
                                 <img src={Website} className="websiteImage" alt="Website"/>
                                 <span className="echipaLink">Website</span>

@@ -1,9 +1,9 @@
 .backgroundFooterHome {
-    background-color: #F0F0F0;
+    background-color: #FFFFFF !important;
 }
 
 .backgroundFooterNoHome {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF !important;
 }
 
 .site-footer {

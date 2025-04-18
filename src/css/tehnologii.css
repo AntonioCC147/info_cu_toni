@@ -4,7 +4,8 @@
 
     min-height: calc(100vh - 75px);
 
-    background-color: #F8F8F8;
+    /* background-color: #F8F8F8; */
+    background-color: #FFFFFF;
     background-size: cover;
     background-position: center;
 }
@@ -50,7 +51,7 @@
     height: 100%;
 
     border-radius: 25px;
-    background-color: white;
+    background-color: #FAFAFA;
 }
 
 .cardTehnologiiImage {

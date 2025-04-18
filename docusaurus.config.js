@@ -92,6 +92,7 @@ const config = {
           },
           */
           {to: '/blog', label: 'Blog', position: 'right'},
+          {to: '/blog', label: 'Contact', position: 'right'},
           /*
           {
             href: 'https://github.com/facebook/docusaurus',

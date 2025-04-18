@@ -48,7 +48,7 @@
  
 .timeline-block-left {
     float: left;
-    direction: rtl
+    direction: rtl;
 }
  
 .marker {
@@ -64,7 +64,7 @@
 }
  
 .timeline-content {
-    width: 95%;
+    width: 100%;
     padding: 0 15px;
 
     text-align: justify;
@@ -72,11 +72,11 @@
     color: #666;
 }
  
-.timeline-content h3 {
+.timeline-content h4 {
     margin-top: 5px;
     margin-bottom: 5px;
 
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 500
 }
  

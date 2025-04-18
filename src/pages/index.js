@@ -139,9 +139,15 @@ export default function Acasa() {
                 <animated.div style={animationIndex}>
                     <Row>
                         <Col sm={12} lg={6}>
-                            <p className="indexText1">Învață Tehnologii Web și creează-ți propria lume!</p>
-                            <p className="indexText2">Cursul de Tehnologii Web este conceput special pentru studenții care doresc să își înceapă aventura în lumea dezvoltării aplicațiilor web și să creeze propriile proiecte folosind HTML, CSS și JavaScript. Pe acest site veți putea găsi resurse utile, dar și informații referitoare la ce veți învăța și cum vă veți putea folosi de aceste resurse pentru a vă transforma ideile în realitate.</p>
-                            <a href="/echipa"><p className="indexButton">Află cine suntem noi &rarr;</p></a>
+                            <p className="indexText1">Învață Informatică și creează-ți propria lume!</p>
+                            <p className="indexText2">
+                                De cele mai multe ori, Informatica îți poate da adevărate bătăi de cap, însă hai să-ți arăt că
+                                acest lucru se poate schimba ușor. Cu multă muncă, pasiune și devotament, poți ajunge ușor la unul
+                                din rezultatele dorinte, într-un timp relativ scurt. Dacă nu crezi asta, îți recomand să-mi dai
+                                o șansă și să-mi scrii la secțiunea Contact pentru a stabili o ședință împreună și pentru a-ți
+                                face un plan de pregătire personalizat. Hai, ce mai aștepți?
+                            </p>
+                            <a href="/despre"><p className="indexButton">Află cine sunt &rarr;</p></a>
                         </Col>
                         <Col sm={12} lg={6} className="text-center d-flex align-items-center justify-content-center">
                             <img src={Web} className="indexImage" alt="Web"/>
@@ -153,13 +159,16 @@ export default function Acasa() {
                 <Row>
                     <img src={Matrix} className="matrixImage" alt="Matrix"/>
                     <p className="tehnologiiText1">Pregătire Individuală</p>
-                    <p className="tehnologiiText2">Cursul de împarte în 3 module menite să ajute la dezvoltarea și întreprinderea abilităților practice în ceea ce privește dezvoltarea de aplicații web</p>
+                    <p className="tehnologiiText2">Informatică, Programare sau Matematică? Alege ce vrei tu, iar eu te pot ajuta!</p>
                     <Col lg={4} style={{marginBottom: "50px"}}>
                         <animated.div ref={ref1} style={animationCards1}>
                             <div className="tehnologiiCard">
                                 <img src={Informatica} className="cardTehnologiiImage" alt="Informatica"/>
                                 <p className="cardTehnologiiTitle">Informatică<br/>(C / C++)</p>
-                                <p className="cardTehnologiiDescription">Învață structura paginilor web cu HTML: elemente, tag-uri și atribute esențiale pentru crearea conținutului online</p>
+                                <p className="cardTehnologiiDescription">
+                                    Învață Informatică într-un mod cât mai simplu, uror și distractiv, fie că te pregătești pentru
+                                    școală, examenul de bacalaureat sau admiterea la facultate.
+                                </p>
                             </div>
                         </animated.div>
                     </Col>
@@ -168,7 +177,10 @@ export default function Acasa() {
                             <div className="tehnologiiCard">
                                 <img src={Programare} className="cardTehnologiiImage" alt="Programare"/>
                                 <p className="cardTehnologiiTitle">Programare<br/>(React, HTML, CSS, JavaScript)</p>
-                                <p className="cardTehnologiiDescription">Dezvoltă interactivitatea paginilor web cu JavaScript: variabile, funcții, evenimente și manipularea DOM-ului</p>
+                                <p className="cardTehnologiiDescription">
+                                    Dacă ai nevoie de ajutor la diferite materii de programare de la facultate sau dorești să înveți dezvoltare web,
+                                    nu ezita să mă contactezi.
+                                </p>
                             </div>
                         </animated.div>
                     </Col>
@@ -177,15 +189,18 @@ export default function Acasa() {
                             <div className="tehnologiiCard">
                                 <img src={Matematica} className="cardTehnologiiImage" alt="Matematica"/>
                                 <p className="cardTehnologiiTitle">Matematică<br/>(Algebră, Geometrie, Analiză)</p>
-                                <p className="cardTehnologiiDescription">Descoperă stilizarea paginilor web cu CSS: culori, fonturi și tehnici avansate de design</p>
+                                <p className="cardTehnologiiDescription">
+                                    Matematica într-adevăr, îți poate da bătăi de cap, însă îți pot arăta că nu este chiar atât
+                                    de grea, indiferent de nivelul la care susții examenul.
+                                </p>
                             </div>
                         </animated.div>
                     </Col>
                 </Row>
             </Container>
             <Container fluid className="skillBackground">
-                <p className="skillText1">Skill-uri</p>
-                <p className="skillText2">Cursul de Tehnologii Web ajută la dobândirea mai multor skill-uri, atât tehnice, cât și nu numai</p>
+                <p className="skillText1">Ce mă recomandă?</p>
+                <p className="skillText2">Află care sunt principalele lucruri care mă recomandă pe mine când vine vorba de pregătirea elevilor</p>
                 <Row className="margin-auto">
                     <Col lg={3} md={4} sm={6} xs={12}>
                         <animated.div ref={ref4} style={animationSkill1}>

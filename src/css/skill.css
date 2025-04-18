@@ -4,9 +4,8 @@
 
     min-height: calc(100vh - 75px);
 
-    background-color: #F0F0F0;
-    background-image: url('../assets/images/Map.png');
-    background-size: 1300px !important;
+    background-color: #FAFAFA;
+    background-image: url('../assets/images/Background.jpg');
     background-size: cover;
     background-position: center;
 }
