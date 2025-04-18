@@ -60,6 +60,20 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
+                    <h4>Student la Automatică și Calculatoare</h4>
+                    <p>Octombrie 2022 - Prezent</p>
+                    <p>
+                        Pasiunea pentru Informatică și Tehnologie m-a adus la una dintre cele mai prestigioase facultăți de
+                        domeniu din România, anume la Facultatea de "Automatică și Calculatoare" din cadrul "Universității
+                        Naționale de Științe și Tehnologie Politehnica București". Aici studiez în paralel și Modulul
+                        Psihopedagogic I care mă vă ajuta să pot preda Informatica la ciclul V-X. Evident că pe viitor îmi doresc
+                        să urmez și studii de master
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-block timeline-block-left">
+                <div class="marker"></div>
+                <div class="timeline-content">
                     <h4>Autor Agendă Informatică</h4>
                     <p>Decembrie 2021 - Prezent</p>
                     <p>
@@ -71,7 +85,7 @@ const Timeline = () => {
                     </p>
                 </div>
             </div>
-            <div class="timeline-block timeline-block-left">
+            <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
                     <h4>Prof. Meditator</h4>

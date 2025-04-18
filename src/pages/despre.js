@@ -74,7 +74,7 @@ export default function Echipa() {
                 </Row>
                 <Row>
                     <animated.div style={animationTextLeft}>
-                        <Timeline />
+                        <Timeline/>
                     </animated.div>
                 </Row>
             </Container>
