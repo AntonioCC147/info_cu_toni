@@ -2,9 +2,9 @@
 sidebar_position: 4
 ---
 
-# Împărțirea numerelor întregi
+# Împărțirea numerelor
 
-Împărțirea numerelor întregi
+Împărțirea numerelor
 
 - `src/pages/index.js` → `localhost:3000/`
 - `src/pages/foo.md` → `localhost:3000/foo`

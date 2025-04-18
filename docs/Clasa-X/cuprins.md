@@ -9,7 +9,7 @@ sidebar_position: 1
 - Tipuri de date
 - Operatori
 - Funcții matematice
-- Împărțirea numerelor întregi
+- Împărțirea numerelor
 - Structuri liniare
 - Structuri alternative 
 - Structuri repetitive
