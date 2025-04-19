@@ -4,191 +4,233 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
+import Button from 'react-bootstrap/esm/Button';
 
 import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 
-import ZebraHackImg from '../assets/images/ZebraHack.png';
-import ZebraHack1 from '../assets/images/ZebraHack1.jpg'
+import Feedback from './feedback';
 
-import '../css/zebraHack.css';
+import Info from '../assets/icons/Info.png';
+import Mate from '../assets/icons/Mate.png';
+import Tehn from '../assets/icons/Tehn.png';
 
-export default function ZebraHack() {
-    const [ref1, inView1] = useInView({
-        triggerOnce: true,
-        threshold: 0.1,
-    });
+import '../css/meditatii.css';
 
-    const [ref2, inView2] = useInView({
-        triggerOnce: true,
-        threshold: 0.1,
-    });
-
-    const [ref3, inView3] = useInView({
-        triggerOnce: true,
-        threshold: 0.1,
-    });
-
-    const [ref4, inView4] = useInView({
-        triggerOnce: true,
-        threshold: 0.1,
-    });
-
-    const [ref5, inView5] = useInView({
-        triggerOnce: true,
-        threshold: 0.1,
-    });
+export default function Meditatii() {
+    const [refText, inViewText] = useInView({ triggerOnce: true, threshold: 0.1 });
+    const [refImage, inViewImage] = useInView({ triggerOnce: true, threshold: 0.1 });
+    const [refTitle, inViewTitle] = useInView({ triggerOnce: true, threshold: 0.1 });
+    const [refFeedback, inViewFeedback] = useInView({ triggerOnce: true, threshold: 0.1 });
+    const [refButton, inViewButton] = useInView({ triggerOnce: true, threshold: 0.1 });
 
     const animationText = useSpring({
-        from: { opacity: 0, transform: 'translateX(-50%)' },
-        to: { opacity: 1, transform: 'translateX(0%)' },
+        opacity: inViewText ? 1 : 0,
+        transform: inViewText ? 'translateX(0%)' : 'translateX(-50%)',
         config: { duration: 750 },
     });
 
     const animationImage = useSpring({
-        from: { opacity: 0, transform: 'translateY(10%)' },
-        to: { opacity: 1, transform: 'translateY(0%)' },
+        opacity: inViewImage ? 1 : 0,
+        transform: inViewImage ? 'translateY(0%)' : 'translateY(10%)',
         config: { duration: 750 },
     });
 
     const animationTitleRight = useSpring({
-        opacity: inView1 ? 1 : 0,
-        transform: inView1 ? 'translateX(0%)' : 'translateX(10%)',
+        opacity: inViewTitle ? 1 : 0,
+        transform: inViewTitle ? 'translateX(0%)' : 'translateX(10%)',
         config: { duration: 750 },
     });
 
-    const animationContent11 = useSpring({
-        opacity: inView3 ? 1 : 0,
-        transform: inView3 ? 'translateY(0%)' : 'translateY(10%)',
+    const animationFeedback = useSpring({
+        opacity: inViewFeedback ? 1 : 0,
+        transform: inViewFeedback ? 'translateY(0%)' : 'translateY(10%)',
         config: { duration: 750 },
     });
 
-    const animationContent12 = useSpring({
-        opacity: inView4 ? 1 : 0,
-        transform: inView4 ? 'translateY(0%)' : 'translateY(10%)',
-        config: { duration: 750 },
-    });
-
-    const animationContent13 = useSpring({
-        opacity: inView5 ? 1 : 0,
-        transform: inView5 ? 'translateY(0%)' : 'translateY(10%)',
+    const animationButton = useSpring({
+        opacity: inViewButton ? 1 : 0,
+        transform: inViewButton ? 'translateY(0%)' : 'translateY(10%)',
         config: { duration: 750 },
     });
 
     return (
         <Layout>
-            <Container fluid className="zebraHackBackground">
-                <animated.div style={animationText}>
-                    <p className="zebraHackText1">ZebraHack</p>
-                    <p className="zebraHackText2">ZebraHack reprezintă un Hackathon organizat de către echipa Tehnologii Web ce a luat naștere în anul 2023</p>
+            <Container fluid className="meditatiiBackground">
+                <animated.div ref={refText} style={animationText}>
+                    <p className="meditatiiText1">Meditații</p>
+                    <p className="meditatiiText2">Dorești să devii o persoană mai bună și să-ți întreci limitele? Eu sunt aici să te ajut!</p>
                 </animated.div>
-                <animated.div style={animationImage}>
-                    <div className="text-center d-flex align-items-center justify-content-center">
-                        <img src={ZebraHackImg} className="zebraHackImage" alt="ZebraHack"/>
-                    </div>
+                <animated.div ref={refImage} style={animationImage}>
+                <Row className="text-center d-flex align-items-center justify-content-center">
+                        <Col md={12} lg={6} xl={4}>
+                            <div className="meditatiiContainer meditatiiContainerDown">
+                                <div className="text-center d-flex align-items-center justify-content-center">
+                                    <img src={Mate} style={{marginTop: "10px", width: "25%"}} alt="Mate"/>
+                                </div>
+                                <p className="meditatiiTitle">Matematică</p>
+                                <p className="meditatiiDescription">
+                                    <span className="bold">Ce vom învăța: </span>Algebră, Geometrie și Analiză Matematică.
+                                </p>
+                                <p className="meditatiiDescription">
+                                    <span className="bold">Pentru ce ne vom pregăti? </span>Nivel de Școală sau Examenul de Bacalaureat.
+                                </p>
+                                <p className="meditatiiDescription">
+                                    <span className="bold">Unde se vor desfășura sesiunile de pregătire? </span>Pregătirile se vor
+                                    desfășura doar în mediul online pe platforma Google Meet.
+                                </p>
+                                <p className="meditatiiDescription">
+                                    <span className="bold">Descriere: </span>Pregătirile la Matematică se susțin în cea mai mare parte
+                                    pentru Examenul de Bacalaureat, dar nu numai. Dacă îți dorești să iei o notă cât mai mare în examen,
+                                    sau să îți îmbunătățești cunoștințele, acesta este momentul.
+                                </p>
+                                <br/>
+                            </div>
+                        </Col>
+                        <Col md={12} lg={6} xl={4}>
+                            <div className="meditatiiContainer">
+                                <div className="text-center d-flex align-items-center justify-content-center">
+                                    <img src={Info} style={{marginTop: "10px", width: "25%"}} alt="Info"/>
+                                </div>
+                                <p className="meditatiiTitle">Informatică</p>
+                                <p className="meditatiiDescription">
+                                    <span className="bold">Ce vom învăța: </span>Limbajele de programare C / C++.
+                                </p>
+                                <p className="meditatiiDescription">
+                                    <span className="bold">Pentru ce ne vom pregăti? </span>Nivel de Școală, Examenul
+                                    de Bacalaureat sau Admiterea la Facultate.
+                                </p>
+                                <p className="meditatiiDescription">
+                                    <span className="bold">Unde se vor desfășura sesiunile de pregătire? </span>Pregătirile se vor
+                                    desfășura doar în mediul online pe platforma Google Meet.
+                                </p>
+                                <p className="meditatiiDescription">
+                                    <span className="bold">Descriere: </span>Informatica reprezintă mai mult decât niște cod scris pe o
+                                    foaie. Dacă dorești să-ți dezvolți și mai mult cunoștințele la Informatică, să iei Examenul de
+                                    Bacalaureat sau pur și simplu să te descurci mai bine la școală, acesta este momentul perfect pentru
+                                    a începe o colaborare.
+                                </p>
+                                <br/>
+                            </div>
+                        </Col>
+                        <Col md={12} lg={6} xl={4}>
+                            <div className="meditatiiContainer meditatiiContainerDown">
+                                <div className="text-center d-flex align-items-center justify-content-center">
+                                    <img src={Tehn} style={{marginTop: "10px", width: "25%"}} alt="Tehn"/>
+                                </div>
+                                <p className="meditatiiTitle">Programare</p>
+                                <p className="meditatiiDescription">
+                                    <span className="bold">Ce vom învăța: </span>Bazele React, JavaScript, Bootstrap, HTML și CSS.
+                                </p>
+                                <p className="meditatiiDescription">
+                                    <span className="bold">Pentru ce ne vom pregăti? </span>Începători, Nivel de Școală sau diverse Teme
+                                    / Proiecte pentru Școală / Facultate.
+                                </p>
+                                <p className="meditatiiDescription">
+                                    <span className="bold">Unde se vor desfășura sesiunile de pregătire? </span>Pregătirile se vor
+                                    desfășura doar în mediul online pe platforma Google Meet.
+                                </p>
+                                <p className="meditatiiDescription">
+                                    <span className="bold">Descriere: </span>Dacă dorești să înveți cât mai multe despre cele mai utilizate
+                                    Tehnologii Web, ai o temă sau pur și simplu ești pasionat de domeniu și nu știi de unde să începi,
+                                    acesta este momentul.
+                                </p>
+                                <br/>
+                            </div>
+                        </Col>
+                    </Row>
                 </animated.div>
                 <Row className="text-center">
-                    <animated.div ref={ref1} style={animationTitleRight}>
-                        <p className="zebraHackTitle">ZebraHack 2.0 - Va urma...</p>
-                    </animated.div>
-                </Row>
-                <Row className="text-center" style={{marginBottom: "50px"}}>
-                    <animated.div ref={ref2} style={animationContent11}>
-                        <p className="zebraHackTitle ">ZebraHack 1.0</p>
-                    </animated.div>
-                    <Col lg={4}>
-                        <animated.div ref={ref3} style={animationContent11}>
-                            <p className="zebraHackSubTitle">Descriere</p>
-                            <p className="zebraHackDescription"><b>Data: </b>16 decembrie 2023</p>
-                            <p className="zebraHackDescription"><b>Locație: </b>Facultatea de Automatică și Calculatoare, Hol EC</p>
-                            <p className="zebraHackDescription"><b>Despre: </b>ZebraHack 1.0 a luat naștere în decembrie 2023 unde a debutat cu prima sa ediție la care au participat peste 45 de echipe a câte doi, trei sau patru coechipieri. Evenimentul a fost un succes, studenții s-au distrat, iar de atunci s-a dorit crearea unei tradiții. Drept urmare, ZebraHack va continua să existe de la un an la altul, în apropierea sărbătorilor de iarnă și să aducă studenții împreună pentru a-și testa abilitățile tehnice de creare a aplicațiilor web în lupta pentru unul dintre premiile acordate. Pe lângă muncă, aceștia au avut parte și de momente de relaxare, precum pauza de masă, având la dispoziție pizza, snacks-uri, sucuri sau apă. Reamintim că ZebraHack este un eveniment intern creat de către echipa Tehnologii Web, destinat 100% studenților de anul II de la specializarea Ingineria Sistemelor.</p>
-                        </animated.div>
-                    </Col>
-                    <Col lg={1}/>
-                    <Col lg={7}>
-                        <animated.div ref={ref4} style={animationContent12}>
-                            <p className="zebraHackSubTitle">Câștigători</p>
-                            <Table striped bordered hover>
+                    <animated.div ref={refTitle} style={animationTitleRight}>
+                        <p className="meditatiiSubTitle">Pachete & Prețuri</p>
+                        <div className="table-responsive">
+                            <Table striped bordered hover className="centered-table">
                                 <thead>
                                     <tr>
-                                    <th>Premiul</th>
-                                    <th>Echipa Câștigătoare</th>
+                                        <th className="centered-cell">Denumire</th>
+                                        <th className="centered-cell">Discipline</th>
+                                        <th className="centered-cell">Descriere</th>
+                                        <th className="centered-cell">Nr. Persoane</th>
+                                        <th className="centered-cell">Nr. Ore</th>
+                                        <th className="centered-cell">Preț</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td className="alignMiddleTd">Locul I</td>
-                                        <td className="alignLeftTd">
-                                            <b>SegFault</b><br/>
-                                            <i>Hampi Rareș Marian, Bolohan Marian Cristian, Dodi Mircea Ovidiu</i>
-                                        </td>
+                                        <td className="centered-cell">Pregătire Individuală</td>
+                                        <td className="centered-cell">Informatică, Matematică</td>
+                                        <td className="centered-cell">Parcurgerea materiei de la 0, rezolvarea exercițiilor specifice, teme la fiecare ședință</td>
+                                        <td className="centered-cell">1</td>
+                                        <td className="centered-cell">1 oră și jumătate</td>
+                                        <td className="centered-cell">100 RON</td>
                                     </tr>
                                     <tr>
-                                        <td className="alignMiddleTd">Locul II</td>
-                                        <td className="alignLeftTd">
-                                            <b>CCC</b><br/>
-                                            <i>Crantea Antonio Cristian, Craia Bogdan Valentin, Croitoru Robert</i>
-                                        </td>
+                                        <td className="centered-cell">Pregătire Individuală</td>
+                                        <td className="centered-cell">Programare</td>
+                                        <td className="centered-cell">Explicarea conceptelor de bază și învățarea prin practică</td>
+                                        <td className="centered-cell">1</td>
+                                        <td className="centered-cell">1 oră și jumătate</td>
+                                        <td className="centered-cell">100 RON</td>
                                     </tr>
                                     <tr>
-                                        <td className="alignMiddleTd">Locul III</td>
-                                        <td className="alignLeftTd">
-                                            <b>LupiiAlpha</b><br/>
-                                            <i>Diaconiță Adrian, Rîpeanu Mihai Andrei, Ionescu Alexandru Mario  </i>
-                                        </td>
+                                        <td className="centered-cell">Pregătire în Grup</td>
+                                        <td className="centered-cell">Informatică, Matematică</td>
+                                        <td className="centered-cell">Parcurgerea materiei de la 0, rezolvarea exercițiilor specifice, teme la fiecare ședință</td>
+                                        <td className="centered-cell">2-5</td>
+                                        <td className="centered-cell">1 oră și jumătate</td>
+                                        <td className="centered-cell">85 RON</td>
                                     </tr>
                                     <tr>
-                                        <td className="alignMiddleTd">Mențiune</td>
-                                        <td className="alignLeftTd">
-                                            <b>Looney Tunes</b><br/>
-                                            <i>Enache Vlad Rareș, Gomoi Andreea Cătălina, Lungan Daniel, Stănescu Miruna Ioana</i>
-                                        </td>
+                                        <td className="centered-cell">Pregătire în Grup</td>
+                                        <td className="centered-cell">Programare</td>
+                                        <td className="centered-cell">Explicarea conceptelor de bază și învățarea prin practică</td>
+                                        <td className="centered-cell">2-5</td>
+                                        <td className="centered-cell">1 oră</td>
+                                        <td className="centered-cell">75 RON</td>
                                     </tr>
                                     <tr>
-                                        <td className="alignMiddleTd">Mențiune</td>
-                                        <td className="alignLeftTd">
-                                            <b>MAX Stability</b><br/>
-                                            <i>Cozma Ivan Carol, Dan Nicholas Bogdan, Vaculenco Maxim, Berianu Leonard</i>
-                                        </td>
+                                        <td className="centered-cell">Simulare Bacalaureat</td>
+                                        <td className="centered-cell">Informatică, Matematică</td>
+                                        <td className="centered-cell">Oferirea unui subiect de bacalaureat cu feedback la final</td>
+                                        <td className="centered-cell">1-5</td>
+                                        <td className="centered-cell">30-45 minute</td>
+                                        <td className="centered-cell">50 RON</td>
                                     </tr>
                                     <tr>
-                                        <td className="alignMiddleTd">Mențiune</td>
-                                        <td className="alignLeftTd">
-                                            <b>Powerhack Girls</b><br/>
-                                            <i>Rădulescu Alexandra, Fedeleș Ana Maria, Udățeanu Andreea Laura</i>
-                                        </td>
+                                        <td className="centered-cell">Consultanță Bacalaureat / Facultate</td>
+                                        <td className="centered-cell">Informatică, Matematică, Programare</td>
+                                        <td className="centered-cell">Discuție despre examenul de bacalaureat / facultate, tips & tricks, experiențe, opinii, păreri</td>
+                                        <td className="centered-cell">1-5</td>
+                                        <td className="centered-cell">30-45 minute</td>
+                                        <td className="centered-cell">50 RON</td>
                                     </tr>
                                     <tr>
-                                        <td className="alignMiddleTd">Premiul Tehnic</td>
-                                        <td className="alignLeftTd">
-                                            <b>CCC</b><br/>
-                                            <i>Crantea Antonio Cristian, Craia Bogdan Valentin, Croitoru Robert</i>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td className="alignMiddleTd">Cel mai bun Design</td>
-                                        <td className="alignLeftTd">
-                                            <b>LupiiAlpha</b><br/>
-                                            <i>Diaconiță Adrian, Rîpeanu Mihai Andrei, Ionescu Alexandru Mario</i>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td className="alignMiddleTd">Cea mai bună Prezentare</td>
-                                        <td className="alignLeftTd">
-                                            <b>Hacknslash</b><br/>
-                                            <i>Şendrescu Vlad Mihai, Micu Paul Alexandru</i>
-                                        </td>
+                                        <td className="centered-cell">Pachet Personalizat</td>
+                                        <td className="centered-cell">Informatică, Matematică, Programare</td>
+                                        <td className="centered-cell">Se poate personaliza un pachet în funcție de nevoile, cerințele sau dorințele elevului</td>
+                                        <td className="centered-cell">1-5</td>
+                                        <td className="centered-cell">30 minute - 1 oră și jumătate</td>
+                                        <td className="centered-cell">50-100 RON</td>
                                     </tr>
                                 </tbody>
                             </Table>
-                        </animated.div>
-                    </Col>
-                    <Row className="text-center d-flex align-items-center justify-content-center">
-                        <animated.div ref={ref5} style={animationContent13}>
-                            <p className="zebraHackSubTitle">Galerie</p>
-                            <img src={ZebraHack1} alt="ZebraHack"/>
-                        </animated.div>
-                    </Row>
+                        </div>
+                    </animated.div>
+                </Row>
+                <Row className="text-center" style={{ marginBottom: "50px" }}>
+                    <animated.div ref={refFeedback} style={animationFeedback}>
+                        <p className="meditatiiSubTitle">Feedback</p>
+                        <Feedback />
+                    </animated.div>
+                </Row>
+                <Row className="text-center d-flex align-items-center justify-content-center">
+                    <animated.div ref={refButton} style={animationButton}>
+                        <div className="buttonContainer">
+                            <Button variant="dark" className="d-flex align-items-center justify-content-center meditatiiButton" href="/">
+                                Contactează-mă aici
+                            </Button>
+                        </div>
+                    </animated.div>
                 </Row>
             </Container>
         </Layout>

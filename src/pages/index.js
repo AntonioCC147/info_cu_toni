@@ -139,7 +139,7 @@ export default function Acasa() {
                 <animated.div style={animationIndex}>
                     <Row>
                         <Col sm={12} lg={6}>
-                            <p className="indexText1">Învață Informatică și creează-ți propria lume!</p>
+                            <p className="indexText1">Învață Informatică și creează-ți propriul cod!</p>
                             <p className="indexText2">
                                 De cele mai multe ori, Informatica îți poate da adevărate bătăi de cap, însă hai să-ți arăt că
                                 acest lucru se poate schimba ușor. Cu multă muncă, pasiune și devotament, poți ajunge ușor la unul
@@ -161,6 +161,18 @@ export default function Acasa() {
                     <p className="tehnologiiText1">Pregătire Individuală</p>
                     <p className="tehnologiiText2">Informatică, Programare sau Matematică? Alege ce vrei tu, iar eu te pot ajuta!</p>
                     <Col lg={4} style={{marginBottom: "50px"}}>
+                        <animated.div ref={ref2} style={animationCards2}>
+                            <div className="tehnologiiCard">
+                                <img src={Matematica} className="cardTehnologiiImage" alt="Matematica"/>
+                                <p className="cardTehnologiiTitle">Matematică<br/>(Algebră, Geometrie, Analiză)</p>
+                                <p className="cardTehnologiiDescription">
+                                    Matematica într-adevăr, îți poate da bătăi de cap, însă îți pot arăta că nu este chiar atât
+                                    de grea, indiferent de nivelul la care susții examenul.
+                                </p>
+                            </div>
+                        </animated.div>
+                    </Col>
+                    <Col lg={4} style={{marginBottom: "50px"}}>
                         <animated.div ref={ref1} style={animationCards1}>
                             <div className="tehnologiiCard">
                                 <img src={Informatica} className="cardTehnologiiImage" alt="Informatica"/>
@@ -180,18 +192,6 @@ export default function Acasa() {
                                 <p className="cardTehnologiiDescription">
                                     Dacă ai nevoie de ajutor la diferite materii de programare de la facultate sau dorești să înveți dezvoltare web,
                                     nu ezita să mă contactezi.
-                                </p>
-                            </div>
-                        </animated.div>
-                    </Col>
-                    <Col lg={4} style={{marginBottom: "50px"}}>
-                        <animated.div ref={ref2} style={animationCards2}>
-                            <div className="tehnologiiCard">
-                                <img src={Matematica} className="cardTehnologiiImage" alt="Matematica"/>
-                                <p className="cardTehnologiiTitle">Matematică<br/>(Algebră, Geometrie, Analiză)</p>
-                                <p className="cardTehnologiiDescription">
-                                    Matematica într-adevăr, îți poate da bătăi de cap, însă îți pot arăta că nu este chiar atât
-                                    de grea, indiferent de nivelul la care susții examenul.
                                 </p>
                             </div>
                         </animated.div>

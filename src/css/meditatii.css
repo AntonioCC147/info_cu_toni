@@ -1,0 +1,161 @@
+.principalContainer {
+    margin-top: 125px;
+    padding: 10px;
+    padding-bottom: 30px;
+
+    text-align: justify;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    border-radius: 20px;
+}
+
+.hr {
+    border-top: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.meditatiiContainer {
+    margin-bottom: 25px;
+
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 20px;
+
+    height: auto;
+
+    background-color: #FAFAFA;
+}
+
+.meditatiiContainerDown {
+    margin-top: 50px;
+}
+
+.meditatiiTitle {
+    margin-top: 25px;
+
+    text-align: center;
+
+    font-size: 1.75rem;
+    font-weight: bolder;
+
+    color: #283747;
+}
+
+.meditatiiDescription {
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    text-align: justify;
+
+    font-size: 1.2rem;
+
+    color: #747E88;
+}
+  
+.bold {
+    font-weight: bold;
+}
+
+.buttonContainer {
+    margin-top: -50px;
+    margin-bottom: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.meditatiiButton {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    width: 250px;
+    height: 50px;
+
+    font-size: 20px !important;
+    text-align: center;
+
+
+    color: #FFFFFF !important;
+}
+
+.meditatiiBackground {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+
+    min-height: calc(100vh - 75px);
+    margin-top: 75px;
+
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+}
+
+.meditatiiText1 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+
+    text-align: center;
+
+    font-size: 3rem;
+    font-weight: bolder;
+
+    color: #283747;
+}
+
+.meditatiiText2 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+    text-align: center;
+    font-size: 1.3rem;
+
+    color: #747E88;
+}
+
+.meditatiiImage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.meditatiiSubTitle {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    text-align: center;
+
+    font-size: 2rem;
+    font-weight: bolder;
+
+    color: #283747;
+}
+
+.centered-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.centered-cell {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.alignMiddleTd {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.alignLeftTd {
+    text-align: left;
+}
+
+@media only screen and (max-width: 990px) {
+    .meditatiiContainerDown {
+        margin-top: 0px;
+    }
+}
