@@ -81,6 +81,12 @@ const config = {
             position: 'left',
             label: 'Clasa a XI-a',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'Subiecte',
+            position: 'left',
+            label: 'Subiecte',
+          },
           /*
           {
             position: 'left',
@@ -92,7 +98,7 @@ const config = {
           },
           */
           {to: '/blog', label: 'Blog', position: 'right'},
-          {to: '/blog', label: 'Contact', position: 'right'},
+          {to: '/contact', label: 'Contact', position: 'right'},
           /*
           {
             href: 'https://github.com/facebook/docusaurus',

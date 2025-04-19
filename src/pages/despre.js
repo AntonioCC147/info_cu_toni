@@ -4,12 +4,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Timeline from './timeline';
+
 import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 
-import Toni from '../assets/images/Toni.png';
 import Matrix from '../assets/images/Matrix.png';
-import Website from '../assets/icons/Website.png';
+import Toni from '../assets/images/Toni.png';
+import Website from '../assets/icons/Web.png';
 
 import '../css/echipa.css';
 

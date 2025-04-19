@@ -11,6 +11,7 @@ import { useInView } from 'react-intersection-observer';
 
 import Feedback from './feedback';
 
+import Matrix from '../assets/images/Matrix.png';
 import Info from '../assets/icons/Info.png';
 import Mate from '../assets/icons/Mate.png';
 import Tehn from '../assets/icons/Tehn.png';
@@ -57,6 +58,7 @@ export default function Meditatii() {
     return (
         <Layout>
             <Container fluid className="meditatiiBackground">
+                <img src={Matrix} className="matrixImage" alt="Matrix"/>
                 <animated.div ref={refText} style={animationText}>
                     <p className="meditatiiText1">Meditații</p>
                     <p className="meditatiiText2">Dorești să devii o persoană mai bună și să-ți întreci limitele? Eu sunt aici să te ajut!</p>

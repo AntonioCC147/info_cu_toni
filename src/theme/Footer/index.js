@@ -32,7 +32,7 @@ export default function FooterWrapper(props) {
                                         <li><a href="/despre">Despre</a></li>
                                         <li><a href="/meditatii">Meditații</a></li>
                                         <li><a href="/blog">Blog</a></li>
-                                        <li><a href="/blog">Contact</a></li>
+                                        <li><a href="/contact">Contact</a></li>
                                     </ul>
                                     <ul className="footer-links">
                                         <li><a href="/docs/Clasa-IX/cuprins">Clasa a IX-a</a></li>

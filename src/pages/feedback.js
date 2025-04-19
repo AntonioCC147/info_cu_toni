@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Carousel from 'react-bootstrap/Carousel';
-import Button from 'react-bootstrap/Button';
 
 import '../css/feedback.css';
 
