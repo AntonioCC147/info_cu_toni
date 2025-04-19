@@ -102,18 +102,6 @@ export default function Acasa() {
                         </p>
                     </animated.div>
                     <Col lg={4} style={{ marginBottom: "50px" }}>
-                        <animated.div ref={ref1} style={animationCards1}>
-                            <div className="tehnologiiCard">
-                                <img src={Informatica} className="cardTehnologiiImage" alt="Informatica" />
-                                <p className="cardTehnologiiTitle">Informatică<br />(C / C++)</p>
-                                <p className="cardTehnologiiDescription">
-                                    Învață Informatică într-un mod cât mai simplu, ușor și distractiv, fie că te pregătești pentru
-                                    școală, examenul de bacalaureat sau admiterea la facultate.
-                                </p>
-                            </div>
-                        </animated.div>
-                    </Col>
-                    <Col lg={4} style={{ marginBottom: "50px" }}>
                         <animated.div ref={ref2} style={animationCards2}>
                             <div className="tehnologiiCard">
                                 <img src={Matematica} className="cardTehnologiiImage" alt="Matematica" />
@@ -121,6 +109,18 @@ export default function Acasa() {
                                 <p className="cardTehnologiiDescription">
                                     Matematica într-adevăr, îți poate da bătăi de cap, însă îți pot arăta că nu este chiar atât
                                     de grea, indiferent de nivelul la care susții examenul.
+                                </p>
+                            </div>
+                        </animated.div>
+                    </Col>
+                    <Col lg={4} style={{ marginBottom: "50px" }}>
+                        <animated.div ref={ref1} style={animationCards1}>
+                            <div className="tehnologiiCard">
+                                <img src={Informatica} className="cardTehnologiiImage" alt="Informatica" />
+                                <p className="cardTehnologiiTitle">Informatică<br />(C / C++)</p>
+                                <p className="cardTehnologiiDescription">
+                                    Învață Informatică într-un mod cât mai simplu, ușor și distractiv, fie că te pregătești pentru
+                                    școală, examenul de bacalaureat sau admiterea la facultate.
                                 </p>
                             </div>
                         </animated.div>
@@ -151,7 +151,7 @@ export default function Acasa() {
                     <Col lg={3} md={4} sm={6} xs={12}>
                         <animated.div ref={ref4} style={animationSkill1}>
                             <div className="skillCard">
-                                <img src={WebDev} className="cardSkillImage" alt="WebDev" />
+                                <img src={WebDev} className="cardSkillImage" alt="WebDev" style={{marginTop: "10px"}}/>
                                 <p className="cardSkillTitle">Cunoștințe Avansate</p>
                             </div>
                         </animated.div>
@@ -159,7 +159,7 @@ export default function Acasa() {
                     <Col lg={3} md={4} sm={6} xs={12}>
                         <animated.div ref={ref5} style={animationSkill2}>
                             <div className="skillCard">
-                                <img src={Design} className="cardSkillImage" alt="Design" />
+                                <img src={Design} className="cardSkillImage" alt="Design"/>
                                 <p className="cardSkillTitle">Gândire Creativă</p>
                             </div>
                         </animated.div>
@@ -167,7 +167,7 @@ export default function Acasa() {
                     <Col lg={3} md={4} sm={6} xs={12}>
                         <animated.div ref={ref6} style={animationSkill3}>
                             <div className="skillCard">
-                                <img src={Analiza} className="cardSkillImage" alt="Analiza" />
+                                <img src={Analiza} className="cardSkillImage" alt="Analiza"/>
                                 <p className="cardSkillTitle">Atenție la Detalii</p>
                             </div>
                         </animated.div>
@@ -175,7 +175,7 @@ export default function Acasa() {
                     <Col lg={6} md={4} sm={6} xs={12}>
                         <animated.div ref={ref7} style={animationSkill4}>
                             <div className="skillCard">
-                                <img src={Performanta} className="cardSkillImage" alt="Performanta" />
+                                <img src={Performanta} className="cardSkillImage" alt="Performanta"/>
                                 <p className="cardSkillTitle">Tind spre Performanță</p>
                             </div>
                         </animated.div>
@@ -183,7 +183,7 @@ export default function Acasa() {
                     <Col lg={6} md={4} sm={6} xs={12}>
                         <animated.div ref={ref8} style={animationSkill5}>
                             <div className="skillCard">
-                                <img src={TandD} className="cardSkillImage" alt="Tehnologie" />
+                                <img src={TandD} className="cardSkillImage" alt="Tehnologie"/>
                                 <p className="cardSkillTitle">Lucrez cu Tehnologia</p>
                             </div>
                         </animated.div>
