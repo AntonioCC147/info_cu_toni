@@ -228,7 +228,7 @@ export default function Meditatii() {
                 <Row className="text-center d-flex align-items-center justify-content-center">
                     <animated.div ref={refButton} style={animationButton}>
                         <div className="buttonContainer">
-                            <Button variant="dark" className="d-flex align-items-center justify-content-center meditatiiButton" href="/">
+                            <Button variant="dark" className="d-flex align-items-center justify-content-center meditatiiButton" href="/contact">
                                 Contactează-mă aici
                             </Button>
                         </div>

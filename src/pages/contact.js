@@ -80,13 +80,16 @@ export default function Contact() {
                 <img src={Matrix} className="matrixImage" alt="Matrix" />
                 <animated.div style={animationText}>
                     <p className="echipaText1">Contact</p>
-                    <p className="echipaText2">Lorem Ipsum</p>
+                    <p className="echipaText2">Dacă vrei să lucrăm împreună sau ai o curiozitate, nu ezita să mă contactezi!</p>
                 </animated.div>
                 <animated.div ref={ref} style={animationTextRight}>
                     <Row className="contactPrincipalCard">
                         <Col lg={4} className="contactSecondaryCard">
                             <p className="contactTitleCard">Informații de contact:</p>
-                            <p className="contactSubTitleCard">Completează formularul, iar eu îți voi răspunde în cel mai scurt timp posibil</p>
+                            <p className="contactSubTitleCard">
+                                Completează formularul, iar eu îți voi răspunde în cel mai scurt timp posibil. Dacă dorești
+                                pregătire individuală, cel mai bine lasă și un număr de telefon pentru a te contacta mai ușor.
+                            </p>
                             <img src={Mail} className="contactIcon" alt="Mail" />
                             <a href="mailto:antoniocrantea@gmail.com" className="contactLink">antoniocrantea@gmail.com</a>
                             <br/><br/>

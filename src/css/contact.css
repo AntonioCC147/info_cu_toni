@@ -31,9 +31,10 @@
 
 .contactSubTitleCard {
     margin-top: 0px;
-    margin-bottom: 150px;
+    margin-bottom: 125px;
 
     font-size: 1rem;
+    text-align: justify;
 
     color: #FAFAFA;
 }
@@ -79,19 +80,25 @@
 
 @media only screen and (max-width: 1200px) {
     .contactSubTitleCard {
-        margin-bottom: 100px;
+        margin-bottom: 25px;
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 990px) {
     .contactSubTitleCard {
         margin-bottom: 150px;
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .contactSubTitleCard {
+        margin-bottom: 75px;
+    }
+}
+
 @media only screen and (max-width: 400px) {
     .contactSubTitleCard {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     .contactLink {
