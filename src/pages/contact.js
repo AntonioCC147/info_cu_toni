@@ -29,9 +29,9 @@ const styles = {
 };
 
 const validationSchema = Yup.object().shape({
-    first_name: Yup.string().required(<span style={styles.error}>Prenumele este obligatoriu</span>),
+    first_name: Yup.string().required(<span style={styles.error}>Numele este obligatoriu</span>),
     email: Yup.string().email(<span style={styles.error}>Email invalid</span>).required(<span style={styles.error}>Emailul este obligatoriu</span>),
-    class: Yup.string().required(<span style={styles.error}>Clasa este obligatorie</span>),  // Validare adăugată pentru clasa
+    class: Yup.string().required(<span style={styles.error}>Clasa este obligatorie</span>),
     message: Yup.string().required(<span style={styles.error}>Mesajul este obligatoriu</span>),
 });  
 
