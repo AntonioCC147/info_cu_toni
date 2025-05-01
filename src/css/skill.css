@@ -1,8 +1,8 @@
 .skillBackground {
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
     padding-left: 10% !important;
     padding-right: 10% !important;
-
-    min-height: calc(100vh - 75px);
 
     background-color: #FAFAFA;
     background-image: url('../assets/images/Background.jpg');

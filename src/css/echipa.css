@@ -1,8 +1,7 @@
 .echipaBackground {
-    padding-left: 10% !important;
-    padding-right: 10% !important;
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
 
-    min-height: calc(100vh - 75px);
     margin-top: 75px;
     margin-bottom: 25px;
 

@@ -84,9 +84,6 @@
 }
 
 .meditatiiBackground {
-    padding-left: 10% !important;
-    padding-right: 10% !important;
-
     min-height: calc(100vh - 75px);
     margin-top: 75px;
 

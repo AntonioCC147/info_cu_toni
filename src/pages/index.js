@@ -71,26 +71,28 @@ export default function Acasa() {
     return (
         <Layout>
             <Container fluid className="indexBackground">
-                <animated.div style={animationIndex}>
-                    <Row>
-                        <Col sm={12} lg={6}>
-                            <p className="indexText1">Învață Informatică și creează-ți propriul cod!</p>
-                            <p className="indexText2">
-                                De cele mai multe ori, Informatica îți poate da adevărate bătăi de cap, însă hai să-ți arăt că
-                                acest lucru se poate schimba ușor. Cu multă muncă, pasiune și devotament, poți ajunge ușor la unul
-                                din rezultatele dorinte, într-un timp relativ scurt. Dacă nu crezi asta, îți recomand să-mi dai
-                                o șansă și să-mi scrii la secțiunea Contact pentru a stabili o ședință împreună și pentru a-ți
-                                face un plan de pregătire personalizat. Hai, ce mai aștepți?
-                            </p>
-                            <a href="/despre"><p className="indexButton">Află cine sunt &rarr;</p></a>
-                        </Col>
-                        <Col sm={12} lg={6} className="text-center d-flex align-items-center justify-content-center">
-                            <img src={Web} className="indexImage" alt="Web" />
-                        </Col>
-                    </Row>
-                </animated.div>
+                <Container>
+                    <animated.div style={animationIndex}>
+                        <Row>
+                            <Col sm={12} lg={6}>
+                                <p className="indexText1">Învață Informatică și creează-ți propriul cod!</p>
+                                <p className="indexText2">
+                                    De cele mai multe ori, Informatica îți poate da adevărate bătăi de cap, însă hai să-ți arăt că
+                                    acest lucru se poate schimba ușor. Cu multă muncă, pasiune și devotament, poți ajunge ușor la unul
+                                    din rezultatele dorinte, într-un timp relativ scurt. Dacă nu crezi asta, îți recomand să-mi dai
+                                    o șansă și să-mi scrii la secțiunea Contact pentru a stabili o ședință împreună și pentru a-ți
+                                    face un plan de pregătire personalizat. Hai, ce mai aștepți?
+                                </p>
+                                <a href="/despre"><p className="indexButton">Află cine sunt &rarr;</p></a>
+                            </Col>
+                            <Col sm={12} lg={6} className="text-center d-flex align-items-center justify-content-center">
+                                <img src={Web} className="indexImage" alt="Web" />
+                            </Col>
+                        </Row>
+                    </animated.div>
+                </Container>
             </Container>
-            <Container fluid className="tehnologiiBackground">
+            <Container className="tehnologiiBackground">
                 <Row>
                     <img src={Matrix} className="matrixImage" alt="Matrix" />
                     <animated.div ref={refTitle} style={animationTitle}>
@@ -145,50 +147,52 @@ export default function Acasa() {
                 </Row>
             </Container>
             <Container fluid className="skillBackground">
-                <p className="skillText1">Ce mă recomandă?</p>
-                <p className="skillText2">Află care sunt principalele lucruri care mă recomandă pe mine când vine vorba de pregătirea elevilor</p>
-                <Row className="margin-auto d-flex align-items-center justify-content-center">
-                    <Col lg={3} md={4} sm={6} xs={12}>
-                        <animated.div ref={ref4} style={animationSkill1}>
-                            <div className="skillCard">
-                                <img src={WebDev} className="cardSkillImage" alt="WebDev" style={{marginTop: "10px"}}/>
-                                <p className="cardSkillTitle">Cunoștințe Avansate</p>
-                            </div>
-                        </animated.div>
-                    </Col>
-                    <Col lg={3} md={4} sm={6} xs={12}>
-                        <animated.div ref={ref5} style={animationSkill2}>
-                            <div className="skillCard">
-                                <img src={Design} className="cardSkillImage" alt="Design"/>
-                                <p className="cardSkillTitle">Gândire Creativă</p>
-                            </div>
-                        </animated.div>
-                    </Col>
-                    <Col lg={3} md={4} sm={6} xs={12}>
-                        <animated.div ref={ref6} style={animationSkill3}>
-                            <div className="skillCard">
-                                <img src={Analiza} className="cardSkillImage" alt="Analiza"/>
-                                <p className="cardSkillTitle">Atenție la Detalii</p>
-                            </div>
-                        </animated.div>
-                    </Col>
-                    <Col lg={6} md={4} sm={6} xs={12}>
-                        <animated.div ref={ref7} style={animationSkill4}>
-                            <div className="skillCard">
-                                <img src={Performanta} className="cardSkillImage" alt="Performanta"/>
-                                <p className="cardSkillTitle">Tind spre Performanță</p>
-                            </div>
-                        </animated.div>
-                    </Col>
-                    <Col lg={6} md={4} sm={6} xs={12}>
-                        <animated.div ref={ref8} style={animationSkill5}>
-                            <div className="skillCard">
-                                <img src={TandD} className="cardSkillImage" alt="Tehnologie"/>
-                                <p className="cardSkillTitle">Lucrez cu Tehnologia</p>
-                            </div>
-                        </animated.div>
-                    </Col>
-                </Row>
+                <Container>
+                    <p className="skillText1">Ce mă recomandă?</p>
+                    <p className="skillText2">Află care sunt principalele lucruri care mă recomandă pe mine când vine vorba de pregătirea elevilor</p>
+                    <Row className="margin-auto d-flex align-items-center justify-content-center">
+                        <Col lg={3} md={4} sm={6} xs={12}>
+                            <animated.div ref={ref4} style={animationSkill1}>
+                                <div className="skillCard">
+                                    <img src={WebDev} className="cardSkillImage" alt="WebDev" style={{marginTop: "10px"}}/>
+                                    <p className="cardSkillTitle">Cunoștințe Avansate</p>
+                                </div>
+                            </animated.div>
+                        </Col>
+                        <Col lg={3} md={4} sm={6} xs={12}>
+                            <animated.div ref={ref5} style={animationSkill2}>
+                                <div className="skillCard">
+                                    <img src={Design} className="cardSkillImage" alt="Design"/>
+                                    <p className="cardSkillTitle">Gândire Creativă</p>
+                                </div>
+                            </animated.div>
+                        </Col>
+                        <Col lg={3} md={4} sm={6} xs={12}>
+                            <animated.div ref={ref6} style={animationSkill3}>
+                                <div className="skillCard">
+                                    <img src={Analiza} className="cardSkillImage" alt="Analiza"/>
+                                    <p className="cardSkillTitle">Atenție la Detalii</p>
+                                </div>
+                            </animated.div>
+                        </Col>
+                        <Col lg={6} md={4} sm={6} xs={12}>
+                            <animated.div ref={ref7} style={animationSkill4}>
+                                <div className="skillCard">
+                                    <img src={Performanta} className="cardSkillImage" alt="Performanta"/>
+                                    <p className="cardSkillTitle">Tind spre Performanță</p>
+                                </div>
+                            </animated.div>
+                        </Col>
+                        <Col lg={6} md={4} sm={6} xs={12}>
+                            <animated.div ref={ref8} style={animationSkill5}>
+                                <div className="skillCard">
+                                    <img src={TandD} className="cardSkillImage" alt="Tehnologie"/>
+                                    <p className="cardSkillTitle">Lucrez cu Tehnologia</p>
+                                </div>
+                            </animated.div>
+                        </Col>
+                    </Row>
+                </Container>
             </Container>
         </Layout>
     );

@@ -57,7 +57,7 @@ export default function Meditatii() {
 
     return (
         <Layout>
-            <Container fluid className="meditatiiBackground">
+            <Container className="meditatiiBackground">
                 <img src={Matrix} className="matrixImage" alt="Matrix"/>
                 <animated.div ref={refText} style={animationText}>
                     <p className="meditatiiText1">Meditații</p>

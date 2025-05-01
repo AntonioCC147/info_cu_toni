@@ -76,7 +76,7 @@ export default function Contact() {
 
     return (
         <Layout>
-            <Container fluid className="echipaBackground">
+            <Container className="echipaBackground">
                 <img src={Matrix} className="matrixImage" alt="Matrix" />
                 <animated.div style={animationText}>
                     <p className="echipaText1">Contact</p>
