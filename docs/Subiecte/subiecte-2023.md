@@ -11,7 +11,7 @@ sidebar_position: 3
     - [Barem](./2023/BaremAugust2023MI.pdf)
 
     1.2 **Specializarea Științele-Naturii:**
-    - [Subiect C/C++](./2023/SubiectAugust2023MIC.pdf) 
+    - [Subiect C/C++](./2023/SubiectAugust2023MIC.pdf) | [Subiect Pascal](./2023/SubiectAugust2023SNPascal.pdf)
     - [Barem](./2023/BaremAugust2023SN.pdf)
 
 2. **Iunie:**
@@ -29,10 +29,6 @@ sidebar_position: 3
     1.1 **Specializarea Matematică-Informatică:**
     - [Subiect C/C++](./2023/SubiectSpeciala2023MIC.pdf)
     - [Barem](./2023/BaremSpeciala2023MI.pdf)
-
-    1.2 **Specializarea Științele-Naturii:**
-    - [Subiect C/C++](./2023/SubiectSpeciala2023SNC.pdf)
-    - [Barem](./2023/BaremSpeciala2023SN.pdf)
 
 4. **Simulare:**
 
