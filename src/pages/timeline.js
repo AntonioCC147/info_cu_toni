@@ -8,6 +8,32 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
+                    <h4>Trainee FullStack Developer</h4>
+                    <p>Iunie 2025 - Prezent</p>
+                    <p>
+                        După multe interviuri, am reușit să prind un post la firma SCHWARZ IT România. Sunt mândru de mine,
+                        întrucât au fost sute de candidați și doar 28 de interni acceptați, iar eu mă aflu printre ei. La această
+                        firmă lucrez cu limbaje precum GO, dar și KOTLIN. Această experiență o să fie una interesantă, întrucât
+                        este prima oară când lucrez într-o corporație
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-block timeline-block-left">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                    <h4>Prof. la Asociația Învață pentru Tine</h4>
+                    <p>Iunie 2025 - Prezent</p>
+                    <p>
+                        Pasiunea pentru predat, informatică, tehnologie, dar și voluntariat m-au adus în postura de a alege să
+                        devin voluntar la asociația prezentată mai sus. Iubesc să ajut oamenii, iar dacă pot face asta și voluntar,
+                        de ce nu? Aici lucrez cu copii de toate vârstele, de la gimnaziu la liceu și îi ajut pe partea de
+                        Informatică & TIC, ce doresc ei să învețe
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
                     <h4>Prof. la Colegiul Național "Aurel Vlaicu"</h4>
                     <p>Aprilie 2025 - Prezent</p>
                     <p>
@@ -41,6 +67,33 @@ const Timeline = () => {
                         nu mă oprește din a învăța alte lucruri noi și interesante. De când predau TIC, am învățat multe lucruri
                         utile pe care le poți face la această disciplină, de care nici eu nu știam. Colectivul este unul minunat,
                         mă bucur să fiu coleg cu foștii mei profesori și să îi fac mândri de ceea ce am ajuns astăzi
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-block timeline-block-left">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                    <h4>Web Developer Intern</h4>
+                    <p>Iulie 2024 - Septembrie 2024</p>
+                    <p>
+                        Pot spune că FeedCheck, locul în care am ocupat această poziție, a fost primul meu Internship adevărat.
+                        Aici am avut prezență fizică la muncă, la un birou. Chiar dacă era un StartUp, echipa a fost foarte
+                        primitoare și deschisă, iar eu pot spune că am învățat lucruri noi. Din cauza facultății a trebuit să
+                        renunț la poziție, cu toate că primisem contract de continuare, dar cine știe? Dumnezeu așează el
+                        lucrurile, iar acum am ajuns să fiu profesor
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                    <h4>TeamLead & FrontEnd Developer</h4>
+                    <p>Mai 2024 - Octombrie 2024</p>
+                    <p>
+                        Pe lângă pasiunea mea pentru tehnologie se numără și partea de a "manageria" o echipă. La DiviGO, căci
+                        așa se numea locul unde am lucrat, am avut ocazia să coordonez echipa de FrontEnd și să ajut totodată
+                        și la dezvoltarea unei aplicații destul de interesantă. A fost o experiență frumoasă din care am mai
+                        învățat câte ceva și cu siguranță mi-ar plăcea să mai am astfel de experiențe și pe viitor
                     </p>
                 </div>
             </div>
