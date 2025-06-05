@@ -47,7 +47,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-left">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h4>Prof. la Algolymp</h4>
+                    <h4>Prof. la centrul de pregătire Algolymp</h4>
                     <p>Ianuarie 2025 - Prezent</p>
                     <p>
                         Algolymp reprezintă un centru de meditații pentru excelență, axat pe mai multe categorii de elevi: elevi
