@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Subiecte 2025
+# Subiecte 2024
 
 1. **August:**
 
