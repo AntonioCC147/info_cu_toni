@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Cuprins
 
-## Elemente de bază în C++:
+## Elemente de bază în C++
 
 - Tipuri de date
 - Operatori
@@ -28,10 +28,10 @@ sidebar_position: 1
   - Transformarea unui număr din baza 10 în baza 2
   - Transformarea unui număr din baza 2 în baza 10
 
-## Fișiere text:
+## Fișiere text
 - Citirea din și afișarea în fișiere text
 
-## Tablouri Unidimensionale (Vectori):
+## Tablouri Unidimensionale (Vectori)
 - Citirea și afișarea
 - Permutări circulare
 - Eliminarea și adăugarea unor elemente

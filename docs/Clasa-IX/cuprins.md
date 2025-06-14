@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Cuprins
 
-## Pseudocod:
+## Pseudocod
 
 - Structuri liniare
 - Structuri alternative 
