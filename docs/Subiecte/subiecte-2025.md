@@ -10,7 +10,17 @@ sidebar_position: 1
 
 2. **Iunie:**
 
-    Va urma...
+    1.1 **Specializarea Matematică-Informatică:**
+    - <a href="/2025/SubiectIunie2025MIC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2025/SubiectIunie2025MIPascal.pdf" target="_blank">Subiect Pascal</a>
+    - <a href="/2025/BaremIunie2025MI.pdf" target="_blank">Barem</a>
+
+    1.2 **Specializarea Matematică-Informatică (Rezervă):**
+    - <a href="/2025/SubiectRezerva2025MIC.pdf" target="_blank">Subiect C/C++</a>
+    - <a href="/2025/BaremRezerva2025MI.pdf" target="_blank">Barem</a>
+
+    1.3 **Specializarea Științele-Naturii:**
+    - <a href="/2025/SubiectIunie2025SNC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2025/SubiectIunie2025SNPascal.pdf" target="_blank">Subiect Pascal</a>
+    - <a href="/2025/BaremIunie2025SN.pdf" target="_blank">Barem</a>
 
 3. **Sesiunea Specială:**
 
@@ -25,7 +35,7 @@ sidebar_position: 1
     - <a href="/2025/BaremSimulare2025MI.pdf" target="_blank">Barem</a>
 
     1.2 **Specializarea Științele-Naturii:**
-    - <a href="/2025/SubiectSimulare2025MIC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2025/SubiectSimulare2025MIPascal.pdf" target="_blank">Subiect Pascal</a>
+    - <a href="/2025/SubiectSimulare2025SNC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2025/SubiectSimulare2025SNPascal.pdf" target="_blank">Subiect Pascal</a>
     - <a href="/2025/BaremSimulare2025SN.pdf" target="_blank">Barem</a>
 
 5. **Model:**
