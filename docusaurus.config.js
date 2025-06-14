@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Wiki - Informatică',
+  title: 'info_cu_toni',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -55,9 +55,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Wiki - Informatică',
+        title: 'info_cu_toni',
         logo: {
-          alt: 'Wiki - Informatică',
+          alt: 'info_cu_toni',
           src: 'img/Logo.png',
         },
         items: [
