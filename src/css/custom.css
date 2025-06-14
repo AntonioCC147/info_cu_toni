@@ -138,10 +138,6 @@ a:hover {
   color: #FFFFFF !important;
 }
 
-.markdown {
-  font-family: 'font' !important;
-}
-
-.markdown > h2 {
+.markdown, .markdown > h2, .container_node_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Info-styles-module, .avatar__subtitle, b, i {
   font-family: 'font' !important;
 }
