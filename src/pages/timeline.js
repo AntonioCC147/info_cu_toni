@@ -4,11 +4,11 @@ import '../css/timeline.css'
 
 const Timeline = () => {
     return (
-        <div class="containerTimeline">
+        <div class="containerTimeline font">
             <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h4>Trainee FullStack Engineer la SCHWARZ</h4>
+                    <h5 className="font">Trainee FullStack Engineer la SCHWARZ</h5>
                     <p>Iunie 2025 - Prezent</p>
                     <p>
                         După multe interviuri, am reușit să prind un post la firma SCHWARZ IT România. Sunt mândru de mine,
@@ -21,7 +21,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-left">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h4>Prof. la Asociația "Învață Pentru Tine"</h4>
+                    <h5 className="font">Prof. la Asociația "Învață Pentru Tine"</h5>
                     <p>Iunie 2025 - Prezent</p>
                     <p>
                         Pasiunea pentru predat, informatică, tehnologie, dar și voluntariat m-au adus în postura de a alege să
@@ -34,7 +34,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h4>Prof. la Colegiul Național "Aurel Vlaicu"</h4>
+                    <h5 className="font">Prof. la Colegiul Național "Aurel Vlaicu"</h5>
                     <p>Aprilie 2025 - Prezent</p>
                     <p>
                         Predau Informatică & TIC la clasele IX-XI. Experiența de la un colegiu național este una unică pe care
@@ -47,7 +47,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-left">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h4>Prof. la centrul de pregătire Algolymp</h4>
+                    <h5 className="font">Prof. la centrul de pregătire Algolymp</h5>
                     <p>Ianuarie 2025 - Prezent</p>
                     <p>
                         Algolymp reprezintă un centru de meditații pentru excelență, axat pe mai multe categorii de elevi: elevi
@@ -60,7 +60,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h4>Prof. la Liceul Teoretic "George Călinescu"</h4>
+                    <h5 className="font">Prof. la Liceul Teoretic "George Călinescu"</h5>
                     <p>Septembrie 2024 - Prezent</p>
                     <p>
                         Acest liceu este liceul meu de suflet, întrucât aici am învățat 4 ani. Predau totuși doar TIC, însă asta
@@ -73,7 +73,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-left">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h4>Web Developer Intern la FeedCheck</h4>
+                    <h5 className="font">Web Developer Intern la FeedCheck</h5>
                     <p>Iulie 2024 - Septembrie 2024</p>
                     <p>
                         Pot spune că FeedCheck, locul în care am ocupat această poziție, a fost primul meu Internship adevărat.
@@ -87,7 +87,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h4>TeamLead & FrontEnd Developer la DiviGO</h4>
+                    <h5 className="font">TeamLead & FrontEnd Developer la DiviGO</h5>
                     <p>Mai 2024 - Octombrie 2024</p>
                     <p>
                         Pe lângă pasiunea mea pentru tehnologie se numără și partea de a "manageria" o echipă. La DiviGO, căci
@@ -100,7 +100,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-left">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h4>Asistent Universitar (Voluntar)</h4>
+                    <h5 className="font">Asistent Universitar (Voluntar)</h5>
                     <p>Octombrie 2023 - Prezent</p>
                     <p>
                         În calitate de asistent universitar în regim voluntar, am avut ocazia încă din anul 2 să ajut profesorii
@@ -113,7 +113,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h4>Student la Automatică și Calculatoare</h4>
+                    <h5 className="font">Student la Automatică și Calculatoare</h5>
                     <p>Octombrie 2022 - Prezent</p>
                     <p>
                         Pasiunea pentru Informatică și Tehnologie m-a adus la una dintre cele mai prestigioase facultăți de
@@ -127,7 +127,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-left">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h4>Autor Agendă Informatică</h4>
+                    <h5 className="font">Autor Agendă Informatică</h5>
                     <p>Decembrie 2021 - Prezent</p>
                     <p>
                         Experiența și pasiunea mea pentru Informatică a fost înglobată cu succes într-o agendă tip culegere pentru
@@ -141,7 +141,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h4>Prof. Meditator</h4>
+                    <h5 className="font">Prof. Meditator</h5>
                     <p>Septembrie 2021 - Prezent</p>
                     <p>
                         Prima interacțiune pe care am avut-o cu predatul informaticii propriu-zise am avut-o în clasa a X-a. La

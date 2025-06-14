@@ -1,4 +1,4 @@
-.echipaBackground {
+.despreBackground {
     padding-top: 3% !important;
     padding-bottom: 3% !important;
 
@@ -10,19 +10,19 @@
     background-position: center;
 }
 
-.echipaText1 {
+.despreText1 {
     margin-top: 25px;
     margin-bottom: 0px;
 
     text-align: center;
 
-    font-size: 3rem;
+    font-size: 2.75rem;
     font-weight: bolder;
 
     color: #283747;
 }
 
-.echipaText2 {
+.despreText2 {
     margin-top: 0px;
 
     text-align: center;
@@ -32,13 +32,13 @@
     color: #747E88;
 }
 
-.echipaImage {
+.despreImage {
     width: 300px;
 
     animation: floating 3s ease-in-out infinite;
 }
 
-.echipaTitle {
+.despreTitle {
     margin-top: 50px;
     margin-bottom: 0px;
 
@@ -50,7 +50,7 @@
     color: #F2A92C;
 }
 
-.echipaSubTitle {
+.despreSubTitle {
     margin-top: 0px;
     margin-bottom: 0px;
 
@@ -62,7 +62,7 @@
     color: #283747;
 }
 
-.echipaContainer {
+.despreContainer {
     display: flex;
     align-items: center;
     justify-content: left;
@@ -78,37 +78,37 @@
     margin-right: 10px;
 }
 
-.echipaLink {
+.despreLink {
     font-size: 1.2rem;
     font-weight: 600;
 
     color: #747E88;
 }
 
-.echipaLink:hover {
+.despreLink:hover {
     color: #F2A92C ;
 }
 
-.echipaDescription {
+.despreDescription {
     margin-top: 25px;
     margin-bottom: 25px;
 
     text-align: justify;
 
-    font-size: 1.2rem;
+    font-size: 1rem;
 
     color: #747E88;
 }
 
 @media only screen and (max-width: 990px) {
-    .echipaTitle, .echipaSubTitle, .echipaDescription {
+    .despreTitle, .despreSubTitle, .despreDescription {
         margin-top: 0px;
         text-align: center;
     }
-    .echipaDescription{
+    .despreDescription{
         margin-top: 25px;
     }
-    .echipaContainer {
+    .despreContainer {
         width: auto;
 
         justify-content: center;

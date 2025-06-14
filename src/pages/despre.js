@@ -12,9 +12,9 @@ import Matrix from '../assets/images/Matrix.png';
 import Toni from '../assets/images/Toni.png';
 import Website from '../assets/icons/Web.png';
 
-import '../css/echipa.css';
+import '../css/despre.css';
 
-export default function Echipa() {
+export default function despre() {
     const [ref, inView] = useInView({
         triggerOnce: true,
         threshold: 0.1,
@@ -40,31 +40,31 @@ export default function Echipa() {
 
     return (
         <Layout>
-            <Container className="echipaBackground">
+            <Container className="despreBackground font">
                 <img src={Matrix} className="matrixImage" alt="Matrix"/>
                 <animated.div style={animationText}>
-                    <p className="echipaText1">Despre</p>
-                    <p className="echipaText2">Află mai multe despre mine și despre tot parcursul meu academic</p>
+                    <p className="despreText1">Despre</p>
+                    <p className="despreText2">Află mai multe despre mine și despre tot parcursul meu academic</p>
                 </animated.div>
                 <Row>
                     <Col lg={4} className="text-center d-flex align-items-center justify-content-center order-lg-1 order-1">
-                        <img src={Toni} className="echipaImage" alt="Avatar"/>
+                        <img src={Toni} className="despreImage" alt="Avatar"/>
                     </Col>
                     <Col lg={8} className="order-lg-2 order-2">
                         <animated.div ref={ref} style={animationTextRight}>
-                            <p className="echipaTitle">Crantea Antonio-Cristian</p>
-                            <p className="echipaSubTitle">Autor, Meditator și Profesor de Informatică & TIC</p>
-                            <a class="echipaContainer" href="https://antoniocrantea.ro/" target="_blank">
+                            <p className="despreTitle">Crantea Antonio-Cristian</p>
+                            <p className="despreSubTitle">Autor, Meditator și Profesor de Informatică & TIC</p>
+                            <a class="despreContainer" href="https://antoniocrantea.ro/" target="_blank">
                                 <img src={Website} className="websiteImage" alt="Website"/>
-                                <span className="echipaLink">Website</span>
+                                <span className="despreLink">Website</span>
                             </a>
-                            <p className="echipaDescription">
+                            <p className="despreDescription">
                                 Salut! Eu sunt Toni și sunt un tânăr pasionat de Informatică, Tehnologie, dar și de Educație.
                                 De-a lungul anilor, am lucrat la mine pentru a ajunge la cea mai bună și posibilă versiune a mea,
                                 ajungând să obțin note precum 9.90 la Matematică și 10 la Informatică în cadrul examenului de
                                 Bacalaureat.
                             </p>
-                            <p className="echipaDescription">
+                            <p className="despreDescription">
                                 În iarna anului 2021 am început să ofer meditații / pregătiri individuale copiilor pentru
                                 pregătirea școlară sau pentru examenul de Bacalaureat, ulterior înființând și o agendă educațională
                                 la disciplina Informatică, iar mai apoi, în toamna anului 2024 am devenit oficial profesor de

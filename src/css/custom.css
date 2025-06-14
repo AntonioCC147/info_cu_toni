@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'font';
+  src: url('/fonts/Font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font {
+  font-family: 'font';
+}
+
 :root {
   --ifm-color-primary: #f2a92c;
   --ifm-color-primary-dark: #f09e11;
@@ -13,6 +24,7 @@
 }
 
 .navbar {
+  font-family: 'font' !important;
   position: fixed !important;
   height: 75px !important;
 
@@ -43,6 +55,7 @@
 }
 
 .menu, .markdown h1:first-child {
+  font-family: 'font' !important;
   padding-top: 25px !important;
 }
 
@@ -59,6 +72,7 @@
 }
 
 a {
+  font-family: 'font' !important;
   text-decoration: none !important;
   color: initial !important;
 }
@@ -68,6 +82,7 @@ a:hover {
 }
 
 .navbar__title, .navbar__link, .menu__link {
+  font-family: 'font' !important;
   position: relative;
   margin: 0px 5px;
 
@@ -77,6 +92,7 @@ a:hover {
 }
 
 .navbar__title::after, .navbar__link::after {
+  font-family: 'font' !important;
   position: absolute;
   
   left: 0;
@@ -120,4 +136,12 @@ a:hover {
 
 .clean-btn {
   color: #FFFFFF !important;
+}
+
+.markdown {
+  font-family: 'font' !important;
+}
+
+.markdown > h2 {
+  font-family: 'font' !important;
 }

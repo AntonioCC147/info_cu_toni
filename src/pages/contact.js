@@ -76,7 +76,7 @@ export default function Contact() {
 
     return (
         <Layout>
-            <Container className="echipaBackground">
+            <Container className="echipaBackground font">
                 <img src={Matrix} className="matrixImage" alt="Matrix" />
                 <animated.div style={animationText}>
                     <p className="echipaText1">Contact</p>
@@ -185,7 +185,7 @@ export default function Contact() {
                                         <Row className="text-center">
                                             <div className="buttonContainer mt-4">
                                                 <Button
-                                                    variant="dark"
+                                                    variant="warning"
                                                     type="submit"
                                                     className="d-flex align-items-center justify-content-center contactButton"
                                                     disabled={isSubmitting || isFormSubmitted}

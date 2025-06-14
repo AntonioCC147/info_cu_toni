@@ -70,7 +70,7 @@ export default function Acasa() {
 
     return (
         <Layout>
-            <Container fluid className="indexBackground">
+            <Container fluid className="indexBackground font">
                 <Container>
                     <animated.div style={animationIndex}>
                         <Row>
@@ -92,14 +92,14 @@ export default function Acasa() {
                     </animated.div>
                 </Container>
             </Container>
-            <Container className="tehnologiiBackground">
+            <Container className="tehnologiiBackground font">
                 <Row>
                     <img src={Matrix} className="matrixImage" alt="Matrix" />
                     <animated.div ref={refTitle} style={animationTitle}>
                         <p className="tehnologiiText1">Pregătire Individuală</p>
                     </animated.div>
                     <animated.div ref={refSubtitle} style={animationSubtitle}>
-                        <p className="tehnologiiText2">
+                        <p className="tehnologiiText2" style={{marginBottom: "50px"}}>
                             Informatică, Programare sau Matematică? Alege ce vrei tu, iar eu te pot ajuta!
                         </p>
                     </animated.div>
@@ -140,13 +140,13 @@ export default function Acasa() {
                         </animated.div>
                     </Col>
                     <animated.div ref={refButton} style={animationButton} className="buttonContainer">
-                        <Button variant="dark" className="d-flex align-items-center justify-content-center meditatiiButton" href="/meditatii">
+                        <Button variant="warning" className="d-flex align-items-center justify-content-center meditatiiButton" href="/meditatii">
                             Află mai multe aici
                         </Button>
                     </animated.div>
                 </Row>
             </Container>
-            <Container fluid className="skillBackground">
+            <Container fluid className="skillBackground font">
                 <Container>
                     <p className="skillText1">Ce mă recomandă?</p>
                     <p className="skillText2">Află care sunt principalele lucruri care mă recomandă pe mine când vine vorba de pregătirea elevilor</p>
@@ -187,7 +187,7 @@ export default function Acasa() {
                             <animated.div ref={ref8} style={animationSkill5}>
                                 <div className="skillCard">
                                     <img src={TandD} className="cardSkillImage" alt="Tehnologie"/>
-                                    <p className="cardSkillTitle">Lucrez cu Tehnologia</p>
+                                    <p className="cardSkillTitle">Înclinat spre Tehnologie</p>
                                 </div>
                             </animated.div>
                         </Col>

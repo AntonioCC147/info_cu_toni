@@ -13,7 +13,7 @@ export default function Feedback() {
     const [view, setView] = useState("All");
 
     return (
-        <Container className="bg-dark principalContainer text-center anta" style={{marginTop: "25px", color: "white"}}>
+        <Container className="bg-dark principalContainer text-center font" style={{marginTop: "25px", color: "white"}}>
             <p className="titleFeedback">Impresii & Păreri</p>
             <p className="subTitle">Câteva gânduri de-ale elevilor mei la finalul pregătirilor</p>
             <Row>

@@ -57,7 +57,7 @@ export default function Meditatii() {
 
     return (
         <Layout>
-            <Container className="meditatiiBackground">
+            <Container className="meditatiiBackground font">
                 <img src={Matrix} className="matrixImage" alt="Matrix"/>
                 <animated.div ref={refText} style={animationText}>
                     <p className="meditatiiText1">Meditații</p>
@@ -228,7 +228,7 @@ export default function Meditatii() {
                 <Row className="text-center d-flex align-items-center justify-content-center">
                     <animated.div ref={refButton} style={animationButton}>
                         <div className="buttonContainer">
-                            <Button variant="dark" className="d-flex align-items-center justify-content-center meditatiiButton" href="/contact">
+                            <Button variant="warning" className="d-flex align-items-center justify-content-center meditatiiButton" href="/contact">
                                 Contactează-mă aici
                             </Button>
                         </div>
