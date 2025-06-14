@@ -1,3 +1,11 @@
+a {
+    color: #F2A92C !important;
+}
+
+a:hover {
+    color: #283747 !important;
+}
+
 .indexBackground {
     margin-top: 75px;
 

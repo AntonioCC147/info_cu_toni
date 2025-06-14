@@ -11,7 +11,7 @@ sidebar_position: 1
 2. **Iunie:**
 
     1.1 **Specializarea Matematică-Informatică:**
-    - <a href="/2025/SubiectIunie2025MIC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2025/SubiectIunie2025MIPascal.pdf" target="_blank">Subiect Pascal</a>
+    - <a className="a" href="/2025/SubiectIunie2025MIC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2025/SubiectIunie2025MIPascal.pdf" target="_blank">Subiect Pascal</a>
     - <a href="/2025/BaremIunie2025MI.pdf" target="_blank">Barem</a>
 
     1.2 **Specializarea Matematică-Informatică (Rezervă):**
