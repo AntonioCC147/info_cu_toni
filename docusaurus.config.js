@@ -55,7 +55,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'info_cu_toni',
+        title: '@info_cu_toni',
         logo: {
           alt: 'info_cu_toni',
           src: 'img/Logo.png',

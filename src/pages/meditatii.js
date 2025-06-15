@@ -70,7 +70,7 @@ export default function Meditatii() {
                                 <div className="text-center d-flex align-items-center justify-content-center">
                                     <img src={Mate} style={{marginTop: "10px", width: "25%"}} alt="Mate"/>
                                 </div>
-                                <p className="meditatiiTitle">Matematică</p>
+                                <p className="meditatiiTitle"><span style={{color: "#f2a92c"}}>Mate</span>matică</p>
                                 <p className="meditatiiDescription">
                                     <span className="bold">Ce vom învăța: </span>Algebră, Geometrie și Analiză Matematică.
                                 </p>
@@ -94,7 +94,7 @@ export default function Meditatii() {
                                 <div className="text-center d-flex align-items-center justify-content-center">
                                     <img src={Info} style={{marginTop: "10px", width: "25%"}} alt="Info"/>
                                 </div>
-                                <p className="meditatiiTitle">Informatică</p>
+                                <p className="meditatiiTitle"><span style={{color: "#f2a92c"}}>Info</span>rmatică</p>
                                 <p className="meditatiiDescription">
                                     <span className="bold">Ce vom învăța: </span>Limbajele de programare C / C++.
                                 </p>
@@ -120,7 +120,7 @@ export default function Meditatii() {
                                 <div className="text-center d-flex align-items-center justify-content-center">
                                     <img src={Tehn} style={{marginTop: "10px", width: "25%"}} alt="Tehn"/>
                                 </div>
-                                <p className="meditatiiTitle">Programare</p>
+                                <p className="meditatiiTitle"><span style={{color: "#f2a92c"}}>Pro</span>gramare</p>
                                 <p className="meditatiiDescription">
                                     <span className="bold">Ce vom învăța: </span>Bazele React, JavaScript, Bootstrap, HTML și CSS.
                                 </p>
