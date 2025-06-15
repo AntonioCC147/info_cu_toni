@@ -114,6 +114,14 @@ hr {
     text-align: center;
 }
 
+.footerName {
+    color: #f2a92c;
+}
+
+.footerName:hover {
+    color: white;
+}
+
 @media (max-width: 760px) {
     .copyright-text {
         margin-bottom: 25px;

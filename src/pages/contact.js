@@ -15,7 +15,7 @@ import { useInView } from 'react-intersection-observer';
 
 import Matrix from '../assets/images/Matrix.png';
 import Mail from '../assets/icons/Mail.png';
-import Website from '../assets/icons/Website.png';
+import Instagram from '../assets/icons/Instagram.png';
 import LinkedIn from '../assets/icons/LinkedIn.png';
 
 import '../css/contact.css';
@@ -90,14 +90,14 @@ export default function Contact() {
                                 Completează formularul, iar eu îți voi răspunde în cel mai scurt timp posibil. Dacă dorești
                                 pregătire individuală, cel mai bine lasă și un număr de telefon pentru a te contacta mai ușor.
                             </p>
-                            <img src={Mail} className="contactIcon" alt="Mail" />
+                            <img src={Mail} className="contactIcon" alt="Mail"/>
                             <a href="mailto:antoniocrantea@gmail.com" className="contactLink">antoniocrantea@gmail.com</a>
                             <br/><br/>
-                            <img src={Website} className="contactIcon" alt="Website" />
-                            <a href="https://antoniocrantea.ro/" className="contactLink">antoniocrantea.ro</a>
+                            <img src={Instagram} className="contactIcon" alt="Instagram"/>
+                            <a href="https://www.instagram.com/info_cu_toni/" className="contactLink" target="_blank">@info_cu_toni</a>
                             <br/><br/>
-                            <img src={LinkedIn} className="contactIcon" alt="LinkedIn" />
-                            <a href="https://www.linkedin.com/in/antonio-crantea/" className="contactLink">antonio-crantea</a>
+                            <img src={LinkedIn} className="contactIcon" alt="LinkedIn"/>
+                            <a href="https://www.linkedin.com/in/antonio-crantea/" className="contactLink" target="_blank">antonio-crantea</a>
                         </Col>
                         <Col lg={8}>
                             <Formik

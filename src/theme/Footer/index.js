@@ -28,6 +28,7 @@ export default function FooterWrapper(props) {
                                 <h6 className="site-footerText font">Harta Site-ului</h6>
                                 <div className="footer-links-container">
                                     <ul className="footer-links">
+                                        <li><a href="/">Acasă</a></li>
                                         <li><a href="/despre">Despre</a></li>
                                         <li><a href="/meditatii">Meditații</a></li>
                                         <li><a href="/blog">Blog</a></li>
@@ -37,7 +38,7 @@ export default function FooterWrapper(props) {
                                         <li><a href="/docs/Clasa-IX/cuprins">Clasa a IX-a</a></li>
                                         <li><a href="/docs/Clasa-X/cuprins">Clasa a X-a</a></li>
                                         <li><a href="/docs/Clasa-XI/cuprins">Clasa a XI-a</a></li>
-                                        <li><a href="/">Subiecte</a></li>
+                                        <li><a href="/docs/Subiecte">Subiecte</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -58,7 +59,7 @@ export default function FooterWrapper(props) {
                                 <p className="copyright-text">Copyright © {new Date().getFullYear()}
                                     {' '}| Website creat de{' '}
                                     <a href="https://antoniocrantea.ro/" target="_blank">
-                                        Crantea Antonio-Cristian
+                                        <span className="footerName">Crantea Antonio-Cristian</span>
                                     </a>
                                     {' '}| Toate drepturile sunt rezervate
                                 </p>

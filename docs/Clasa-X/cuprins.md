@@ -16,7 +16,7 @@ sidebar_position: 1
   - Cu test inițial
   - Cu test final
 - Algoritmi elementari
-- Divizibilitate
+  - Divizibilitate
   - Determinarea cifrei minime / maxime
   - Inversul unui număr
   - Palindrom
