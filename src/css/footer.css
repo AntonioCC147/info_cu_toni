@@ -21,7 +21,13 @@
 .site-footerText {
     margin-bottom: 25px;
 
+    text-align: center;
+
     color: #F2A92C !important;
+}
+
+.text-justify {
+    text-align: center;
 }
 
 .site-footer hr {
@@ -108,10 +114,10 @@ hr {
     background-color: #33353d;
 }
 
-.copyright-text {
+.copyright-text, .list-unstyled {
     margin: 0;
 
-    text-align: center;
+    text-align: center !important;
 }
 
 .footerName {
@@ -122,9 +128,17 @@ hr {
     color: white;
 }
 
+.footerLogo {
+    width: 100% !important;
+}
+
 @media (max-width: 760px) {
     .copyright-text {
         margin-bottom: 25px;
+    }
+
+    .footerLogo {
+        width: 50% !important;
     }
 }
 

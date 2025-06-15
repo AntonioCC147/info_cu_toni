@@ -53,10 +53,10 @@ export default function despre() {
                     <Col lg={8} className="order-lg-2 order-2">
                         <animated.div ref={ref} style={animationTextRight}>
                             <p className="despreTitle">Crantea Antonio-Cristian</p>
-                            <p className="despreSubTitle">Autor, Meditator și Profesor de Informatică & TIC</p>
+                            <p className="despreSubTitle">Autor, Programator și Profesor de Informatică & TIC</p>
                             <a class="despreContainer" href="https://antoniocrantea.ro/" target="_blank">
                                 <img src={Website} className="websiteImage" alt="Website"/>
-                                <span className="despreLink">Website</span>
+                                <span className="despreLink">Website Personal</span>
                             </a>
                             <p className="despreDescription">
                                 Salut! Eu sunt Toni și sunt un tânăr pasionat de Informatică, Tehnologie, dar și de Educație.

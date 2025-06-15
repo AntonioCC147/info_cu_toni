@@ -138,6 +138,6 @@ a:hover {
   color: #FFFFFF !important;
 }
 
-.markdown, .markdown > h2, .container_mt6G, .margin-vert--md, .avatar__subtitle, h1, b, i {
+.markdown, .markdown > h2, .container_mt6G, .margin-vert--md, .avatar__subtitle, h1, h2, h3, h4, h5, h6, p, b, i {
   font-family: 'font' !important;
 }

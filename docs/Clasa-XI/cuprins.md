@@ -8,17 +8,17 @@ sidebar_position: 1
 - Citirea și afișarea
 - Matrici pătratice
 
-## Șiruri de caractere
+## Șiruri de Caractere
 - Citirea și afișarea
 - Funcții specifice ale șirurilor de caractere
 
-## Structuri de date neomogene
+## Structuri de Date Neomogene
 - Definire și structură
 
-## Subprograme definite de utilizator
+## Subprograme Definite de Utilizator
 - Definire și structură
 
-## Subprograme recursive
+## Subprograme Recursive
 - Definire și structură
 
 ## Backtracking
@@ -26,7 +26,7 @@ sidebar_position: 1
 - Aranjamente
 - Combinări
 
-## Elemente de teoria gafurilor
+## Elemente de Teoria Gafurilor
 - Grafuri neorientate
 - Grafuri orientate
 - Arbori
