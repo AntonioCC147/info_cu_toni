@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Teste de Antrenament 2021
+# Teste Antrenament 2021
 
 1. **Testul 1:**
 
