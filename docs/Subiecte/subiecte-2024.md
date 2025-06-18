@@ -11,7 +11,7 @@ sidebar_position: 2
     - <a href="/2024/BaremAugust2024MI.pdf" target="_blank">Barem</a>
 
     1.2 **Specializarea Științele-Naturii:**
-    - <a href="/2024/SubiectAugust2024MIC.pdf" target="_blank">Subiect C/C++</a>
+    - <a href="/2024/SubiectAugust2024SNC.pdf" target="_blank">Subiect C/C++</a>
     - <a href="/2024/BaremAugust2024SN.pdf" target="_blank">Barem</a>
 
 2. **Iunie:**
@@ -21,7 +21,7 @@ sidebar_position: 2
     - <a href="/2024/BaremIunie2024MI.pdf" target="_blank">Barem</a>
 
     1.2 **Specializarea Științele-Naturii:**
-    - <a href="/2024/SubiectIunie2024MIC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2024/SubiectIunie2024MIPascal.pdf" target="_blank">Subiect Pascal</a>
+    - <a href="/2024/SubiectIunie2024SNC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2024/SubiectIunie2024SNPascal.pdf" target="_blank">Subiect Pascal</a>
     - <a href="/2024/BaremIunie2024SN.pdf" target="_blank">Barem</a>
 
 3. **Sesiunea Specială:**
@@ -41,7 +41,7 @@ sidebar_position: 2
     - <a href="/2024/BaremSimulare2024MI.pdf" target="_blank">Barem</a>
 
     1.2 **Specializarea Științele-Naturii:**
-    - <a href="/2024/SubiectSimulare2024MIC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2024/SubiectSimulare2024MIPascal.pdf" target="_blank">Subiect Pascal</a>
+    - <a href="/2024/SubiectSimulare2024SNC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2024/SubiectSimulare2024SNPascal.pdf" target="_blank">Subiect Pascal</a>
     - <a href="/2024/BaremSimulare2024SN.pdf" target="_blank">Barem</a>
 
 5. **Model:**
