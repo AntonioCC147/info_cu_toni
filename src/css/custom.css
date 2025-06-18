@@ -142,6 +142,15 @@ a:hover {
   font-family: 'font' !important;
 }
 
+.margin-bottom--xl {
+  margin-top: 50px !important;
+  margin-bottom: -25px !important;
+}
+
+p {
+  text-align: justify !important;
+}
+
 @media (min-width: 997px) {
   .sidebar_njMd {
     margin-top: 75px !important;
