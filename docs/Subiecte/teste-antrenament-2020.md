@@ -51,7 +51,7 @@ sidebar_position: 8
     - <a href="/2020/BaremTestAntrenament5-2020MI.pdf" target="_blank">Barem</a>
 
     1.2 **Specializarea Științele-Naturii:**
-    - <a href="/2021/SubiectTestAntrenament5-2021SNC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2020/SubiectTestAntrenament5-2020SNPascal.pdf" target="_blank">Subiect Pascal</a>
+    - <a href="/2020/SubiectTestAntrenament5-2020SNC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2020/SubiectTestAntrenament5-2020SNPascal.pdf" target="_blank">Subiect Pascal</a>
     - <a href="/2020/BaremTestAntrenament5-2020SN.pdf" target="_blank">Barem</a>
 
 6. **Testul 6:**
@@ -198,8 +198,8 @@ sidebar_position: 8
 
     1.1 **Specializarea Matematică-Informatică:**
     - <a href="/2020/SubiectTestAntrenament20-2020MIC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2020/SubiectTestAntrenament20-2020MIPascal.pdf" target="_blank">Subiect Pascal</a>
-    - <a href="/2021/BaremTestAntrenament12-2021MI.pdf" target="_blank">Barem</a>
+    - <a href="/2020/BaremTestAntrenament20-2020MI.pdf" target="_blank">Barem</a>
 
     1.2 **Specializarea Științele-Naturii:**
     - <a href="/2020/SubiectTestAntrenament20-2020SNC.pdf" target="_blank">Subiect C/C++</a> | <a href="/2020/SubiectTestAntrenament20-2020SNPascal.pdf" target="_blank">Subiect Pascal</a>
-    - <a href="/2021/BaremTestAntrenament12-2021SN.pdf" target="_blank">Barem</a>
+    - <a href="/2020/BaremTestAntrenament20-2020SN.pdf" target="_blank">Barem</a>
