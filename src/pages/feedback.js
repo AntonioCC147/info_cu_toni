@@ -138,6 +138,29 @@ export default function Feedback() {
                         </p>
                     </Carousel.Item>
                     <Carousel.Item interval={2500}>
+                        <p className="feedbackNameText">Ștefan 1 | Clasa a XII-a - Informatică | Bacalaureat</p>
+                        <p className="feedbackNameText">Ana | Clasa a XII-a - Informatică | Bacalaureat</p>
+                        <img src={StarsIcon} className="stars" alt="Stars"/>
+                        <p className="feedbackDescriptionText">
+                            Îți multumesc mult pentru ajutor, Toni. Am luat cea mai mare notă din bac din clasă.
+                        </p>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2500}>
+                        <p className="feedbackNameText">Mihnea 1 | Clasa a X-a - Informatică și Matematică | Pregătire Școlară</p>
+                        <img src={StarsIcon} className="stars" alt="Stars"/>
+                        <p className="feedbackDescriptionText">
+                            Mulțumesc mult pentru tot ajutorul! Ai fost cu adevărat un bun
+                            povățuitor, iar lucrul cu tine m-a ajutat extrem de mult la școală.
+                        </p>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2500}>
+                        <p className="feedbackNameText">Mama lui Mihnea 2 | Clasa a V-a - Matematică | Pregătire Școlară</p>
+                        <img src={StarsIcon} className="stars" alt="Stars"/>
+                        <p className="feedbackDescriptionText">
+                            Mulțumim mult, Antonio pentru tot ajutorul oferit!
+                        </p>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2500}>
                         <p className="feedbackNameText">Luca | Clasa a XII-a - Matematică | Bacalaureat</p>
                         <img src={StarsIcon} className="stars" alt="Stars"/>
                         <p className="feedbackDescriptionText">
