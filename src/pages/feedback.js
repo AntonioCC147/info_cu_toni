@@ -19,11 +19,74 @@ export default function Feedback() {
             <Row>
                 <Carousel>
                     <Carousel.Item interval={2500}>
-                        <p className="feedbackNameText">Ștefan 1 | Clasa a XII-a - Informatică | Bacalaureat</p>
+                        <p className="feedbackNameText">Ana | Clasa a XII-a - Informatică | Bacalaureat</p>
                         <img src={StarsIcon} className="stars" alt="Stars"/>
                         <p className="feedbackDescriptionText">
-                            Îți multumesc mult pentru ajutor, Toni. Am luat cea mai mare
-                            notă din bac din clasă.
+                            Mulțumim mult de tot! E și meritul tău, ești un profesor foarte bun și explici pe înțelesul nostru,
+                            organizat și simplu. Pe mine chiar m-ai ajutat să îmi recapăt pasiunea pentru informatică și ai făcut
+                            totul să pară foarte ușor, așa că îți mulțumesc! Adică mi se pare insane că nu am făcut informatică
+                            aproape deloc în cei 4 ani de liceu și învățând de la tine am luat 9,80, și fără muncă suplimentară
+                            și cu teme puține și scurte, și am și început mai târziu ședințele! Ești top!
+                        </p>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2500}>
+                        <p className="feedbackNameText">Tudor 1 | Clasa a XII-a - Informatică | Bacalaureat și Admitere</p>
+                        <img src={StarsIcon} className="stars" alt="Stars"/>
+                        <p className="feedbackDescriptionText">
+                            Vreau să-ți mulțumesc pentru colaborarea pe care am avut-o pe parcursului anului acesta. Pe lângă
+                            cunoștințele academice pe care mi le-ai oferit, atitudinea, caracterul tău deschis și vârsta
+                            apropiată dintre noi m-au ajutat mult în aprofundarea materiei pentru bac și admiterea la Automatică.
+                            Orele noastre de meditații au fost mereu serioase, deși nu lipseau niciodată glumele și atmosfera era
+                            una relaxantă. Mi-a plăcut foarte mult ca ești un om organizat și structurat, mai ales în privința
+                            materiei de bac. Am apreciat modul clar, eficient dar și atrăgător în care ne-ai predat, nelipsind
+                            tips and tricks și alte concepte interesante. Pe lângă asta m-ai lămurit mereu la orice întrebare pe
+                            care am avut-o, m-ai motivat și m-ai împins înspre reușită, lucru pentru care sunt foarte recunoscător.
+                            Îți mulțumesc încă o dată pentru tot sprijinul și sunt foarte bucuros ca am fost elevul unui profesor
+                            de calitate pe care îl recomand oricui este pasionat și are nevoie de informatică pentru bac și admitere 
+                            la facultate.
+                        </p>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2500}>
+                        <p className="feedbackNameText">Luiza | Clasa a XI-a și a XII-a - Informatică | Bacalaureat și Admitere</p>
+                        <img src={StarsIcon} className="stars" alt="Stars"/>
+                        <p className="feedbackDescriptionText">
+                            Voiam să-ți mulțumesc din suflet pentru tot ajutorul pe care mi l-ai acordat de-a lungul acestor doi
+                            ani. Îți mulțumesc că m-ai făcut să înțeleg pe deplin ceea ce înseamnă informatica de liceu, dar mai
+                            ales pentru că m-ai ajutat să realizez că pe acest domeniu vreau să mă axez și în viitor. Îți
+                            mulțumesc că mi-ai fost alături în momentele bune, dar mai ales în cele proaste și sper că această
+                            colaborare va continua să dea roade și în provocările ce urmează.
+                        </p>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2500}>
+                        <p className="feedbackNameText">Tudor 2 | Clasa a XII-a - Informatică | Bacalaureat</p>
+                        <img src={StarsIcon} className="stars" alt="Stars"/>
+                        <p className="feedbackDescriptionText">
+                            La începutul anului nu aveam deloc speranță la o notă mare în bac deoarece nu aveam deloc materia
+                            învățată. În câteva luni cu tine, am reușit să cresc de la 6.50 la cât aveam în simulare, la 9.50 și
+                            îți sunt foarte recunoscător!
+                        </p>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2500}>
+                        <p className="feedbackNameText">Daria | Clasa a XII-a - Informatică | Bacalaureat</p>
+                        <img src={StarsIcon} className="stars" alt="Stars"/>
+                        <p className="feedbackDescriptionText">
+                            Am vrut să îți mulțumesc în privat pentru tot ajutorul! Într-un timp atât de scurt m-ai ajutat să
+                            recuperez. A fost chiar mai distractiv decât mă așteptam!
+                        </p>
+                    </Carousel.Item>
+                    <Carousel.Item interval={2500}>
+                        <p className="feedbackNameText">Alex | Clasa a XII-a - Informatică | Bacalaureat și Admitere</p>
+                        <img src={StarsIcon} className="stars" alt="Stars"/>
+                        <p className="feedbackDescriptionText">
+                            Vreau să îți mulțumesc pentru toată susținerea și colaborarea din acest an. Pe lângă faptul că m-ai
+                            ajutat să înțeleg materia pentru bac și admiterea la Automatică, stilul tău deschis, răbdarea și
+                            apropierea de vârstă au făcut ca orele noastre să fie nu doar utile, ci și plăcute. Chiar dacă
+                            lecțiile au fost întotdeauna serioase și bine organizate, atmosfera relaxată și glumele ocazionale
+                            au făcut ca totul să pară mai ușor. Am apreciat claritatea cu care ai explicat conceptele, modul
+                            structurat în care ai abordat materia și sfaturile practice pe care le-ai oferit pe parcurs. Îți sunt
+                            recunoscător pentru răspunsurile detaliate la întrebările mele, pentru motivația pe care mi-ai
+                            oferit-o și pentru încrederea pe care mi-ai transmis-o. A fost o reală plăcere să învăț de la tine și
+                            te recomand oricui vrea să se pregătească serios pentru informatică.
                         </p>
                     </Carousel.Item>
                     <Carousel.Item interval={4000}>
@@ -46,21 +109,6 @@ export default function Feedback() {
                             Am vrut să îți zic că îți mulțumesc mult, mult pentru orele
                             făcute de pregătire, m-au ajutat foarte mult și mă bucur foarte mult că am găsit o astfel de
                             persoană, care a reușit să mă ajute să înțeleg informatica, în acest fel!
-                        </p>
-                    </Carousel.Item>
-                    <Carousel.Item interval={2500}>
-                        <p className="feedbackNameText">Mihnea 1 | Clasa a X-a - Informatică și Matematică | Pregătire Școlară</p>
-                        <img src={StarsIcon} className="stars" alt="Stars"/>
-                        <p className="feedbackDescriptionText">
-                            Mulțumesc mult pentru tot ajutorul! Ai fost cu adevărat un bun
-                            povățuitor, iar lucrul cu tine m-a ajutat extrem de mult la școală.
-                        </p>
-                    </Carousel.Item>
-                    <Carousel.Item interval={2500}>
-                        <p className="feedbackNameText">Mama lui Mihnea 2 | Clasa a V-a - Matematică | Pregătire Școlară</p>
-                        <img src={StarsIcon} className="stars" alt="Stars"/>
-                        <p className="feedbackDescriptionText">
-                            Mulțumim mult, Antonio pentru tot ajutorul oferit!
                         </p>
                     </Carousel.Item>
                     <Carousel.Item interval={2500}>
