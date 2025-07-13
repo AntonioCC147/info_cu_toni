@@ -47,7 +47,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-left">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h5 className="font">Prof. @ centrul de pregătire Algolymp</h5>
+                    <h5 className="font">Prof. @ Centrul de pregătire Algolymp</h5>
                     <p>Ianuarie 2025 - Prezent</p>
                     <p>
                         Algolymp reprezintă un centru de meditații pentru excelență, axat pe mai multe categorii de elevi: elevi
@@ -60,6 +60,19 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
+                    <h5 className="font">Co-Founder & Web Dev @ Ajutor! Dau Bacu'</h5>
+                    <p>Octombrie 2024 - Prezent</p>
+                    <p>
+                        În luna octombrie a anului 2024, alături de încă un coechipier  am început să lucrăm la un proiect ce are
+                        la bază organizarea simulărilor pentru bacalaureat la toate materiile. Astfel, am început să recrutăm
+                        profesori și să ne organizăm mai bine pentru a putea oferii elevilor cele mai bune și calitative
+                        simulări pe care noi, simplii studenți / profesori le puteam creea.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-block timeline-block-left">
+                <div class="marker"></div>
+                <div class="timeline-content">
                     <h5 className="font">Prof. @ Liceul Teoretic George Călinescu</h5>
                     <p>Septembrie 2024 - Prezent</p>
                     <p>
@@ -70,7 +83,7 @@ const Timeline = () => {
                     </p>
                 </div>
             </div>
-            <div class="timeline-block timeline-block-left">
+            <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
                     <h5 className="font">Web Developer Intern @ FeedCheck</h5>
@@ -84,7 +97,7 @@ const Timeline = () => {
                     </p>
                 </div>
             </div>
-            <div class="timeline-block timeline-block-right">
+            <div class="timeline-block timeline-block-left">
                 <div class="marker"></div>
                 <div class="timeline-content">
                     <h5 className="font">TeamLead & FrontEnd Developer @ DiviGO</h5>
@@ -94,6 +107,19 @@ const Timeline = () => {
                         așa se numea locul unde am lucrat, am avut ocazia să coordonez echipa de FrontEnd și să ajut totodată
                         și la dezvoltarea unei aplicații destul de interesantă. A fost o experiență frumoasă din care am mai
                         învățat câte ceva și cu siguranță mi-ar plăcea să mai am astfel de experiențe și pe viitor.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                    <h5 className="font">Prof. @ Probleme.Poli</h5>
+                    <p>Aprilie 2024 - Prezent</p>
+                    <p>
+                        La inițiativa unei echipe de 3 persoane și descoperind și eu acest proiect, mi-a plăcut atât de Trainee
+                        încât am decis să-i contactez. După câteva conversații și întâlniri, am ajuns în echipă, unde pentru
+                        început am ajutat la organizarea unor simulări la Informatică în stilul celor de la admiterea pentru
+                        Facultatea de Automatică și Calculatoare.
                     </p>
                 </div>
             </div>
