@@ -8,7 +8,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h5 className="font">Trainee FullStack Engineer @ SCHWARZ</h5>
+                    <h5 className="font">Trainee FullStack Engineer @ SCHWARZ IT</h5>
                     <p>Iunie 2025 - Prezent</p>
                     <p>
                         După multe interviuri, am reușit să prind un post la firma SCHWARZ IT România. Sunt mândru de mine,
