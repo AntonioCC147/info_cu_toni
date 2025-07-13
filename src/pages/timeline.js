@@ -168,11 +168,11 @@ const Timeline = () => {
                 <div class="marker"></div>
                 <div class="timeline-content">
                     <h5 className="font">Prof. Meditator</h5>
-                    <p>Septembrie 2021 - Prezent</p>
+                    <p>Iunie 2020 - Prezent</p>
                     <p>
-                        Prima interacțiune pe care am avut-o cu predatul informaticii propriu-zise am avut-o în clasa a X-a. La
-                        scurt timp după asta, am zis să încerc să împărtășesc cunoștințele mele și cu alte persoane, în regim de
-                        pregătiri individuale. Mi-a plăcut foarte mult să fac asta și iată că până în prezent mă ocup cu aceste
+                        Prima interacțiune pe care am avut-o cu predatul informaticii propriu-zise am avut-o la final de clasa a X-a.
+                        La scurt timp după asta, am zis să încerc să împărtășesc cunoștințele mele și cu alte persoane, în regim
+                        de pregătiri individuale. Mi-a plăcut foarte mult să fac asta și iată că până în prezent mă ocup cu aceste
                         ședințe individuale de pregătire și inspir în continuare elevii să reușească să obțină note mari în
                         examene.
                     </p>
