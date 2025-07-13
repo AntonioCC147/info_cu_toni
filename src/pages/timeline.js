@@ -34,7 +34,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h5 className="font">Prof. @ Colegiul Național "Aurel Vlaicu"</h5>
+                    <h5 className="font">Prof. @ Colegiul Național Aurel Vlaicu</h5>
                     <p>Aprilie 2025 - Iunie 2025</p>
                     <p>
                         Predau Informatică & TIC la clasele IX-XI. Experiența de la un colegiu național este una unică pe care
@@ -60,7 +60,7 @@ const Timeline = () => {
             <div class="timeline-block timeline-block-right">
                 <div class="marker"></div>
                 <div class="timeline-content">
-                    <h5 className="font">Prof. @ Liceul Teoretic "George Călinescu"</h5>
+                    <h5 className="font">Prof. @ Liceul Teoretic George Călinescu</h5>
                     <p>Septembrie 2024 - Prezent</p>
                     <p>
                         Acest liceu este liceul meu de suflet, întrucât aici am învățat 4 ani. Predau totuși doar TIC, însă asta
