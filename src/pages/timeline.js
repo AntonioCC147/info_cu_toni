@@ -35,7 +35,7 @@ const Timeline = () => {
                 <div class="marker"></div>
                 <div class="timeline-content">
                     <h5 className="font">Prof. @ Colegiul Național "Aurel Vlaicu"</h5>
-                    <p>Aprilie 2025 - Prezent</p>
+                    <p>Aprilie 2025 - Iunie 2025</p>
                     <p>
                         Predau Informatică & TIC la clasele IX-XI. Experiența de la un colegiu național este una unică pe care
                         oricând aș mai încerca-o. Este o adevărată provocare să le predai Informatică unor copii de liceu, mai
