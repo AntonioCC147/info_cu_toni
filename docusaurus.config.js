@@ -83,6 +83,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'Materiale',
+            position: 'left',
+            label: 'Materiale',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'Subiecte',
             position: 'left',
             label: 'Subiecte',
