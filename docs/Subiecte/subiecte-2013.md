@@ -45,3 +45,7 @@ sidebar_position: 15
     1.1 **Specializarea Matematică-Informatică:**
     - <a href="/2013/SubiectModel2013MIC.pdf" target="_blank">Subiect C/C++</a>
     - <a href="/2013/BaremModel2013MI.pdf" target="_blank">Barem</a>
+
+    1.2 **Specializarea Științele-Naturii:**
+    - <a href="/2013/SubiectModel2013SNC.pdf" target="_blank">Subiect C/C++</a>
+    - <a href="/2013/BaremModel2013SN.pdf" target="_blank">Barem</a>
