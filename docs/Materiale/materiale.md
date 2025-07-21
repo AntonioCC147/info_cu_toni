@@ -24,8 +24,8 @@ sidebar_position: 1
 
 5. **Tehnici de Programare:**
 
-  - <a href="/materiale/Tehnici de Programare 1.pdf" target="_blank">Partea 1</a>
-  - <a href="/materiale/Tehnici de Programare 2.pdf" target="_blank">Partea 2</a>
+  - <a href="/materiale/Tehnici de Programare 1.pdf" target="_blank">Tehnici de Programare - Partea 1</a>
+  - <a href="/materiale/Tehnici de Programare 2.pdf" target="_blank">Tehnici de Programare - Partea 2</a>
 
 6. **Grafuri:**
 
