@@ -28,7 +28,7 @@ export default function FooterWrapper(props) {
                                     Website-ul își propune două mari scopuri, anume acela de a ajuta elevii cu informații și materie
                                     relevantă la informatică, atât pentru școală, cât și pentru examene naționale, dar și pentru
                                     admitere, dar și scopul de a promova pregătirea individuală pe care o realizez de câțiva ani
-                                    buni. Pentru mai multe informații, recomand urmărirea paginilor de pe site.
+                                    buni.
                                 </p>
                             </div>
 
@@ -46,6 +46,7 @@ export default function FooterWrapper(props) {
                                         <li><a href="/docs/Clasa-IX/cuprins">Clasa a IX-a</a></li>
                                         <li><a href="/docs/Clasa-X/cuprins">Clasa a X-a</a></li>
                                         <li><a href="/docs/Clasa-XI/cuprins">Clasa a XI-a</a></li>
+                                        <li><a href="/docs/Materiale">Materiale</a></li>
                                         <li><a href="/docs/Subiecte">Subiecte</a></li>
                                     </ul>
                                 </div>
